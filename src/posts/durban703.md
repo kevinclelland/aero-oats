@@ -104,7 +104,7 @@ photo: '/images/small1.jpg'
         <h1 class="mt-3 text-center text-xl font-bold italic">What's the definition of insanity?</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
   <div>
-          
+   <h1 class="text-center font-serif text-xl font-bold">Time: 00:39:07</h1>       
    <p class="first-letter:font-serif first-letter:text-3xl">Hardly doing any swim training and magically expecting a better result than the previous year!</p>
      <br />
    <p>My swim has always been my achilles heel. It started with not knowing how to swim properly but I fixed that years ago. Now the true problem is only being prepared to swim twice a week in training...and all of it by myself firmly in the comfort zone.</p>
@@ -118,21 +118,21 @@ photo: '/images/small1.jpg'
   <hr class="m-auto my-4 w-full border border-black/40" />
 
 <div class="mx-auto grid w-full max-w-7xl md:grid-cols-4 grid-cols-1 gap-x-3 p-4">
-      <article class="col-span-1">
+ <article class="col-span-1">
         <h1 class="text-center font-serif text-3xl font-bold italic">The Bike</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Lorem ipsum dolor sit amet consectetur adipisicing elit?</h1>
+        <h1 class="mt-3 text-center text-xl font-bold italic">Serving the penalty and catching my breathe</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
         <div>
-          <h1 class="text-center font-serif text-xl font-bold">By Nikola Mrsic.</h1>
-          <p class="first-letter:font-serif first-letter:text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
-          <br />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
-          <br />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
-        </div>
-      </article>
+        <h1 class="text-center font-serif text-xl font-bold">Time: 02:40:53</h1>  
+   <p class="first-letter:font-serif first-letter:text-3xl">I knew my fitness wasn't particularly good but I had really stepped up my equipment by swapping out my BMC TMR01 aero road bike for a pro level Cervelo P5D. With this, and too much time on Zwift and not on the road, came some challenges.</p>
+    <br />
+   <p>After a disappointing swim I started pedaling with a sense of urgency...only to find out my side-mounted bottle cage wasn't strong enough to hold my bottle! Dang...lost my Precision Hydration in the first 2km. And yes, because i'm an idiot I didn't stop to fetch it.</p>
+    <br />
+   <p>At about the 20km mark, feeling like a Pro and, possibly over-biking, I was flying past SO. MANY. PEOPLE. At one section, there were 5 cyclists next to each other taking up the whole lane. Across the solid line was a marshall on their motorbike talking to them. I was going about 35km/h and them 20km/h. So what did I do...past them on the inside. Spotting this the marshall immediately left the 5 cyclists and served me a penalty for passing on the inside.</p>
+   <p>Feeling hard done by but knowing a rule is a rule, I served my 5min penalty at the 45km mark. I took the time to catch my breath and identified that I was cycling too hard. The 5min penalty ruined any chances for a personal best and I cycled the rest of the bike leg with a relaxed mindset.</p>
+ </div>
+</article>
   
 <article class="col-span-2 p-3">
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
@@ -147,16 +147,18 @@ photo: '/images/small1.jpg'
 <article class="col-span-1">
         <h1 class="text-center font-serif text-3xl font-bold italic">The Run</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Lorem ipsum dolor sit amet consectetur adipisicing elit?</h1>
+        <h1 class="mt-3 text-center text-xl font-bold italic">Lack of consistent training being highlighted</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
         <div>
-          <h1 class="text-center font-serif text-xl font-bold">By Nikola Mrsic.</h1>
-          <p class="first-letter:font-serif first-letter:text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
+          <h1 class="text-center font-serif text-xl font-bold">Time: 01:43:35</h1>
+          <p class="first-letter:font-serif first-letter:text-3xl">This was the first time running in my super shoe Nike Vaporlfy's so, similar to the bike, I was hoping for a miracle from my gear as I couldn't rely on my fitness.</p>
           <br />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
+          <p>I quickly settled into a 4:45/km pace hoping I could stick with that and then pick it up at halfway. The plan went well...except when I hit 10km I started getting stitches and was reduced to a walk to try manage them. So much for a negative split!</p>
           <br />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
+          <p>Anyway, I was proud of myself to have averaged 5:00/km for the last half. I really had to dig deep to keep this up to the end</p>
+          <p>It's a tough run as Durban is a notoriously hot and humid city and the whole run is pancake flat on the promenade with zero cover from the sun. It can be a fast course if you have done the work in training, but, offers nowhere to hide if you haven't.</p>
+          <br />
+          <p>At the end of the day I just wasn't fit enough to expect anything more. And yes, I do think the super shoes helped...a lot!</p>  
         </div>
       </article>
 
@@ -175,21 +177,21 @@ photo: '/images/small1.jpg'
   <h1 class="mt-3 text-center text-xl font-bold italic">General Satisfaction</h1>
   <hr class="m-auto my-4 w-[150px] border-2 border-black" />
 
- <div class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem impedit debitis unde necessitatibus voluptatem nostrum. Laborum, ad cumque nihil quam quaerat atque soluta minus. Dolorem, autem veniam. Laudantium, at architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum maiores quo, quis velit provident rerum molestiae animi. Magni, delectus maiores? Sunt at maiores exercitationem pariatur nihil eveniet facere suscipit praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam nisi fuga recusandae adipisci, similique dolor soluta, perspiciatis provident rem ex, maxime neque voluptatum iure doloremque voluptatem impedit ipsam deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta debitis assumenda facere laudantium vel culpa accusantium, possimus alias rem, quibusdam explicabo porro excepturi amet! Accusamus mollitia libero at cumque quae!</div>
+ <div class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">I was disappointed with my time in all three disciplines but also know that I would be asking too much to expect any faster. I was proud of how I kept pushing on the run even though I was really hurting and didn't have too much to race for given my slow swim and bike times. This is the first time I've been served a penalty and as the definitive "goodie goodie" I also glad this didn't knock me emotionally.</div>
 </div>
 
 <div class="col-span-1 sm:col-span-1">
 <hr class="m-auto my-4 w-[150px] border-2 border-black" />
         <h1 class="mt-3 text-center text-xl font-bold italic">What Went Well</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
- <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem impedit debitis unde necessitatibus voluptatem nostrum. Laborum, ad cumque nihil quam quaerat atque soluta minus. Dolorem, autem veniam. Laudantium, at architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum maiores quo, quis velit provident rerum molestiae animi. Magni, delectus maiores? Sunt at maiores exercitationem pariatur nihil eveniet facere suscipit praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam nisi fuga recusandae adipisci, similique dolor soluta, perspiciatis provident rem ex, maxime neque voluptatum iure doloremque voluptatem impedit ipsam deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta debitis assumenda facere laudantium vel culpa accusantium, possimus alias rem, quibusdam explicabo porro excepturi amet! Accusamus mollitia libero at cumque quae!</p>
+ <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">I put my best foot forward on race day. I nailed my preparation and race logistics during race week. I was extremely happy with my new bike and cannot wait to race it again. I was also pleasantly impressed with the Vaporfly's. The combination of Precision Hydration electrolytes and Maurten gels seemed to work well again.</p>
 </div>
 
 <div class="col-span-1 sm:col-span-1">
 <hr class="m-auto my-4 w-[150px] border-2 border-black" />
         <h1 class="mt-3 text-center text-xl font-bold italic">Need to do better</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
- <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem impedit debitis unde necessitatibus voluptatem nostrum. Laborum, ad cumque nihil quam quaerat atque soluta minus. Dolorem, autem veniam. Laudantium, at architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum maiores quo, quis velit provident rerum molestiae animi. Magni, delectus maiores? Sunt at maiores exercitationem pariatur nihil eveniet facere suscipit praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam nisi fuga recusandae adipisci, similique dolor soluta, perspiciatis provident rem ex, maxime neque voluptatum iure doloremque voluptatem impedit ipsam deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta debitis assumenda facere laudantium vel culpa accusantium, possimus alias rem, quibusdam explicabo porro excepturi amet! Accusamus mollitia libero at cumque quae!</p>
+ <p class="font-sans text-sm first-letter:font-serif first-letter:text-3xl">Focus on establishing a solid base of fitness that is sustainable. Health first...no injuries and illness. I started doing hard sprints way to early...03:05 * 1km repeats in January? I also need to fix my water bottle issue but that should be easy. Most importantly, I think if I aim to improve and get a Personal Best I need to focus a lot more on the swim to start off on the front foot rather than trying to play catch up. Time for a coach again maybe?</p>
 </div>
 
 </div>
