@@ -19,18 +19,22 @@
 		following: 'Posts by users you follow.'
 	};
 
+
 </script>
 	<svelte:head>
 	<title>{config.title}</title>
 	</svelte:head>
 
-	<div>
+		
 
+	<div>
+		
 		<div class="mx-auto max-w-7xl text-token grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-4 p-4">
 
 			
 				<!-- Main -->
 			<div class="col-span-3 card card-hover overflow-hidden">
+				
 				<header>
 				<img src="/images/banner2.jpg" class="bg-black/50 w-full " alt="Post" />
 				</header>

@@ -120,7 +120,7 @@
    <div class="flex grid grid-cols-1 p-4">
       
     <div class="col-span-3 mx-auto">
-      <button type="button" class="btn variant-filled btn-lg" id="calculate">Calculate</button>
+      <button type="button" class="btn bg-gradient-to-br variant-gradient-primary-secondary btn-lg" id="calculate">Calculate</button>
     </div>
     </div>
 
