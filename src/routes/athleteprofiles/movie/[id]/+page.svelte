@@ -8,7 +8,8 @@
 
 {#if movie}
 	<article>
-		<div class="poster p-4">
+		<div class="flex grid grid-cols-1 md:grid-cols-2">
+		<div class="poster p-4 col-span-1">
 			<a href="/athleteprofiles">
                <img
                         class="cover rounded-2xl max-w-lg"
@@ -21,7 +22,7 @@
 			</a>
 		</div>
 
-		<div class="details">
+		<div class="details col-span-1 p-4">
 			<h1 class="title text-7xl" data-flip-id="title-{movie.title}">
 				{movie.title}
 			</h1>
@@ -29,6 +30,7 @@
 			<iframe width="560" height="315" src={movie.youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 		
+	</div>
 	</article>
 
 	<div class="backdrop" style:--bg-image="url({movie.backdrop_path})" />
