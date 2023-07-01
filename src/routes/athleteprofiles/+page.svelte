@@ -1,20 +1,23 @@
 <script lang="ts">
-	import { Avatar} from '@skeletonlabs/skeleton';
-	export let data
+	import { Avatar } from '@skeletonlabs/skeleton';
+	export let data;
 </script>
 
-<main class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 movies p-4 max-w-7xl mx-auto items-center">
+<main
+	class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 movies p-4 max-w-7xl mx-auto items-center"
+>
 	{#each data.movies as movie}
 		<article class="col-span-1 mx-auto">
 			<a href="/athleteprofiles/movie/{movie.id}">
 				<div class="poster">
-					<Avatar src="{movie.avatar}" width="w-36" class="flex-none"
+					<Avatar
+						src={movie.avatar}
+						width="w-36"
+						class="flex-none"
 						data-flip-id="cover-{movie.title}"
 					/>
-					
 				</div>
 			</a>
-			
 
 			<p class="title p-2 text-center" data-flip-id="title-{movie.title}">
 				{movie.title}

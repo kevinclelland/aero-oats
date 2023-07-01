@@ -1,124 +1,148 @@
-<script>
-    const ytData = [
-		{ category: 'youtube', name: "Lionel Sanders", label: 'Pro Triathlete', link: 'www.' },
-        { category: 'youtube', name: "The Daily Tri", label: 'News', link: 'www.' }
-		
-	];
+<script lang="ts">
+	import { TabGroup, Tab} from '@skeletonlabs/skeleton';
+	let tabSet: number = 0;
+	let tabsBasic = 0;
 
-    const podData = [
-		
-		{ category: 'podcast', name: "Fitter Radio", label: 'Interviews by Bevan', link: 'www' },
-        { category: 'podcast', name: "How They Train", label: 'Jack Kelly', link: 'www.' }
-		
-	];
 
-    const emailData = [
-		
-		{ category: 'newsletter', name: "The Tempo", label: 'News and articles', link: 'www' },
-        { category: 'aero oats', name: "Matti", label: 'News and articles', link: 'www' }
-    
-	];
-
-    const discData = [
-
-        { category: 'discord', name: "Matti", label: 'News and articles', link: 'www' },
-        { category: 'discord', name: "Daily Tri", label: 'News and articles', link: 'www' },
-        { category: 'discord', name: "Lionel Sanders", label: 'News and articles', link: 'www' }
-        
-	];
-
-    const webData = [
-
-        { category: 'website', name: "Tri247", label: 'News and articles', link: 'www' },
-        { category: 'website', name: "Obsessed Triathlete", label: 'News and articles', link: 'www' },
-        { category: 'website', name: "PTO", label: 'News and articles', link: 'www' }
-
-    ];
-
-    
 </script>
 
-<h1 class="text-4xl">Youtube<i class="fas fa-wrench p-4 variant-soft-secondary"></i></h1>
+<div class="mx-auto max-w-2xl text-token grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+	<!-- Main -->
+	<div class="col-span-2 card card-hover overflow-hidden">
 
-<ul>
-    {#each ytData as v}
-        
-    <div class="p-4">
-      <a href="/{v.link}"><div class="flex-auto"><div>{v.name}{v.label}</div></div></a>
-          
-      
-        </div>
-    {/each}
-</ul>
+<div class="p-4 space-y-4">
+	<TabGroup>
+		<!-- Tabs -->
+		<Tab bind:group={tabsBasic} name="youtube" value={0}>Youtube</Tab>
+		<Tab bind:group={tabsBasic} name="podcasts" value={1}>Podcasts</Tab>
+		<Tab bind:group={tabsBasic} name="newsletters" value={2}>Newsletters</Tab>
+		<Tab bind:group={tabsBasic} name="websites" value={3}>Websites</Tab>
+		<Tab bind:group={tabsBasic} name="discord" value={4}>Discord</Tab>
+		<!-- Panel -->
+		<svelte:fragment slot="panel">
+			{#if tabsBasic === 0}
+			
 
-<h1 class="text-4xl">Podcasts</h1>
+			<ul>
+				<li class="p-2">
+					<a href="https://www.youtube.com/@Lionel.Sanders">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Lionel Sanders</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.youtube.com/@thedailytri">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">The Daily Tri</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.youtube.com/@gtn">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">GTN</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.youtube.com/@Harry-Palmer">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Harry Palmer</span>
+					</a>
+				</li>
+				<!-- ... -->
+			</ul>
 
-<ul>
-    {#each podData as v}
-        <div>
-           
-           <li> <span class="badge-icon p-4 variant-soft-secondary"><i class="fas fa-wrench"></i></span></li>
-           <a href="/{v.link}">
-            <li><span class="flex-auto">
-                <dt class="font-bold">{v.name}</dt>
-                <dd class="text-sm opacity-50">{v.label}</dd>
-            </span></li></a>
-           
-        
-        </div>
-    {/each}
-</ul>
 
-<h1 class="text-4xl">Newsletters</h1>
 
-<ul>
-    {#each emailData as v}
-        <div>
-           
-           <li> <span class="badge-icon p-4 variant-soft-secondary"><i class="fas fa-wrench"></i></span></li>
-           <a href="/{v.link}">
-            <li><span class="flex-auto">
-                <dt class="font-bold">{v.name}</dt>
-                <dd class="text-sm opacity-50">{v.label}</dd>
-            </span></li></a>
-           
-        
-        </div>
-    {/each}
-</ul>
 
-<h1 class="text-4xl">Discord</h1>
+			{:else if tabsBasic === 1}
+													
+			<ul>
+				<li class="p-2">
+					<a href="https://shows.acast.com/triathlon-mockery">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Triathlon Mockery</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.fitter.co.nz/listen-radio">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Fitter Radio</span>
+					</a>
+				</li>
+				<!-- ... -->
+			</ul>
+			
+			{:else if tabsBasic === 2}
+				
+			<ul>
+				<li class="p-2">
+					<a href="https://www.triathlonish.com/">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Triathlon-ish</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://aerooats.beehiiv.com/">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Aero Oats</span>
+					</a>
+				</li>
+				<!-- ... -->
+			</ul>
 
-<ul>
-    {#each discData as v}
-        <div>
-           
-           <li> <span class="badge-icon p-4 variant-soft-secondary"><i class="fas fa-wrench"></i></span></li>
-           <a href="/{v.link}">
-            <li><span class="flex-auto">
-                <dt class="font-bold">{v.name}</dt>
-                <dd class="text-sm opacity-50">{v.label}</dd>
-            </span></li></a>
-           
-        
-        </div>
-    {/each}
-</ul>
+			{:else if tabsBasic === 3}
 
-<h1 class="text-4xl">Websites</h1>
+			<ul>
+				<li class="p-2">
+					<a href="https://www.obstri.com/">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Obsessed Triathlete</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.tri247.com/">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Tri 247</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.precisionhydration.com/">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Precision Hydration</span>
+					</a>
+				</li>
+				<!-- ... -->
+			</ul>
+			
+			{:else if tabsBasic === 4}
+			
+			<ul>
+				<li class="p-2">
+					<a href="https://discord.com/channels/877956839373959168/930139386182516788">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Lionel Sanders Racing</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://discord.com/channels/1049394664303763468/1049394664752550019">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">The Daily Tri</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://discord.com/channels/1111341317696536627/1111341318535393371">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">The Athlete Penthouse</span>
+					</a>
+				</li>
+				<!-- ... -->
+			</ul>
 
-<ul>
-    {#each webData as v}
-        <div>
-           
-           <li> <span class="badge-icon p-4 variant-soft-secondary"><i class="fas fa-wrench"></i></span></li>
-           <a href="/{v.link}">
-            <li><span class="flex-auto">
-                <dt class="font-bold">{v.name}</dt>
-                <dd class="text-sm opacity-50">{v.label}</dd>
-            </span></li></a>
-           
-        
-        </div>
-    {/each}
-</ul>
+			{/if}
+		</svelte:fragment>
+	</TabGroup>
+</div>
+
+</div>
+</div>
+

@@ -1,6 +1,6 @@
-import { c as create_ssr_component, v as validate_component } from "../../../chunks/index3.js";
+import { c as create_ssr_component, v as validate_component } from '../../../chunks/index3.js';
 const PTO = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<body><div class="flex grid grid-cols-3 gap-4 p-4"><div class="col-span-3 mx-auto max-w-lg"><p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">Unofficial PTO Points Calculator</p>
+	return `<body><div class="flex grid grid-cols-3 gap-4 p-4"><div class="col-span-3 mx-auto max-w-lg"><p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">Unofficial PTO Points Calculator</p>
     <p class="text-center p-2">Get indicative PTO points for a race. Use cases: &quot;What if Ali Brownlee started the race? What if the last place athlete didn&#39;t DNF and 16 athletes finished? What if I had gone 2min quicker?&quot;</p>
     <p class="italic text-center text-sm"><a href="https://protriathletes.org/pto-world-ranking-system/">Click here for more info on the calculations.</a></p></div></div>
 
@@ -346,8 +346,6 @@ const PTO = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   <\/script></body>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(PTO, "PTO").$$render($$result, {}, {}, {})}`;
+	return `${validate_component(PTO, 'PTO').$$render($$result, {}, {}, {})}`;
 });
-export {
-  Page as default
-};
+export { Page as default };

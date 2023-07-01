@@ -1,16 +1,16 @@
-import { c as create_ssr_component } from "./index3.js";
+import { c as create_ssr_component } from './index3.js';
 const metadata = {
-  "title": "Durban 70.3",
-  "description": "Experience the Zulu Kingdom.",
-  "date": "2022-10-02",
-  "categories": ["Ironman 70.3", "Durban"],
-  "published": true,
-  "avatar": "https://1.gravatar.com/avatar/6da489c46ce4b9c37c7c73acd9a9e980?size=128",
-  "user": "Kevin Clelland",
-  "photo": "/images/small1.jpg"
+	title: 'Durban 70.3',
+	description: 'Experience the Zulu Kingdom.',
+	date: '2022-10-02',
+	categories: ['Ironman 70.3', 'Durban'],
+	published: true,
+	avatar: 'https://1.gravatar.com/avatar/6da489c46ce4b9c37c7c73acd9a9e980?size=128',
+	user: 'Kevin Clelland',
+	photo: '/images/small1.jpg'
 };
 const Durban703 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-4 gap-4 p-4"><div class="col-span-2 p-4"><img class="mb-5 h-auto border border-4 border border-black/50 grayscale" src="/images/small1.jpg" alt="old"></div>
+	return `<div class="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-4 gap-4 p-4"><div class="col-span-2 p-4"><img class="mb-5 h-auto border border-4 border border-black/50 grayscale" src="/images/small1.jpg" alt="old"></div>
 <div class="col-span-2 p-4"><h1 class="text-center font-serif text-3xl font-bold italic">Introduction</h1>
 <hr class="m-auto my-4 w-[150px] border-2 border-black">
 <h1 class="text-center font-serif text-xl font-bold">By Kevin Clelland.</h1>
@@ -115,11 +115,15 @@ const Durban703 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <tr><td>Run Time</td>
 	<td>01:43:35</td></tr></tbody></table></div></div></div>`;
 });
-const __vite_glob_0_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  default: Durban703,
-  metadata
-}, Symbol.toStringTag, { value: "Module" }));
-export {
-  __vite_glob_0_0 as _
-};
+const __vite_glob_0_0 = /* @__PURE__ */ Object.freeze(
+	/* @__PURE__ */ Object.defineProperty(
+		{
+			__proto__: null,
+			default: Durban703,
+			metadata
+		},
+		Symbol.toStringTag,
+		{ value: 'Module' }
+	)
+);
+export { __vite_glob_0_0 as _ };

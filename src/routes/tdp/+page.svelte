@@ -1,9 +1,5 @@
 <script lang="ts">
+	import TDP from '$lib/components/TDP.svelte';
+</script>
 
-    import TDP from '$lib/components/TDP.svelte';
-    
-    
-    </script>
-    
-    
-        <TDP />
+<TDP />

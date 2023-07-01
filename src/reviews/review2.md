@@ -11,7 +11,7 @@ user: Kevin Clelland
 photo: 'https://protriathletes.org/wp-content/uploads/2023/05/Anne-Haug-Wins-PTO-European-Open-in-Ibiza-@-6-May-2023-.jpg'
 ---
 
-	<header class="w-full  ">
+    <header class="w-full  ">
         <nav class="flex flex-col md:flex-row  gap-3 items-center justify-around py-5 px-4">
           <div class="md:w-2/12 text-center md:text-left">
             <p class="font-serif  text-xl font-bold">By Aero Oats.</p>
@@ -27,7 +27,7 @@ photo: 'https://protriathletes.org/wp-content/uploads/2023/05/Anne-Haug-Wins-PTO
           </div>
         </nav>
       </header>
-      
+
         <section class=" mx-auto flex  items-center justify-between border-t border-b py-3 px-5 font-thin">
           <span>Lorem</span>
           <span>Lorem ipsum</span>
@@ -37,7 +37,7 @@ photo: 'https://protriathletes.org/wp-content/uploads/2023/05/Anne-Haug-Wins-PTO
           <h1 class="text-center font-serif text-7xl font-black">ROTH IS COMING</h1>
           <h1 class="mt-5 text-center font-serif text-4xl font-black italic">The biggest long distance triathlon in the world</h1>
         </section>
-      
+
         <section class="mx-auto grid w-full max-w-7xl md:grid-cols-4 gap-x-3 p-4">
           <article class="col-span-2 p-3">
             <img class="mb-5 h-auto border border-4 border" src="https://preview.redd.it/xgw7omakm0l61.jpg?width=640&crop=smart&auto=webp&s=b1196117d38678f5f28484d89882a2d8f9f0fedc" alt="old"/>
@@ -62,7 +62,7 @@ photo: 'https://protriathletes.org/wp-content/uploads/2023/05/Anne-Haug-Wins-PTO
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
             </div>
           </article>
-      
+
           <article class="col-span-1">
             <div class="3 flex flex-col items-center justify-center border border-4 py-4 px-2">
               <h1 class="text-3xl">LOREM SERBIA NEWS</h1>
@@ -94,7 +94,7 @@ photo: 'https://protriathletes.org/wp-content/uploads/2023/05/Anne-Haug-Wins-PTO
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sint? Eos aliquam, maiores minima amet doloremque veritatis consectetur iusto autem facilis laudantium nisi, dolor enim impedit inventore quis, quisquam veniam!</p>
             </div>
           </article>
-      
+
           <article class="col-span-3 p-3">
             <hr class="m-auto my-4 w-[150px] border-2" />
             <h1 class="mb-3 text-center font-serif text-6xl">NOVI SAD SERBIA</h1>

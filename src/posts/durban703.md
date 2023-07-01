@@ -10,8 +10,6 @@ avatar: 'https://1.gravatar.com/avatar/6da489c46ce4b9c37c7c73acd9a9e980?size=128
 user: Kevin Clelland
 photo: '/images/small1.jpg'
 ---
- 
-  
 
   <div class="mx-auto grid w-full max-w-7xl grid-cols-1 md:grid-cols-4 gap-4 p-4">
 
@@ -30,7 +28,6 @@ photo: '/images/small1.jpg'
       <p class="font-sans p-2">The race was due to be on 5 June but was postponed to "a later date" a few weeks before which was difficult to mentally cope with. I started training in December but pulled a calf muscle thinking i'm a hero while doing track work.</p>
       <p class="font-sans p-2">Maybe it's a "post covid" thing but this is the first year that I've continuosly gotten flu and missed about 6 weeks training evenly spread between May and September. Needless to say my expectations on race day weren't very high.</p>
 </div>
-
 
 <div class="col-span-2 sm:col-span-1 p-4">
    <h1 class="text-center font-serif text-3xl font-bold italic">The Tools</h1>
@@ -95,7 +92,6 @@ photo: '/images/small1.jpg'
 		
 </table>
 
-   
 </div>
   
 <div class="col-span-2 p-4">
@@ -252,7 +248,5 @@ photo: '/images/small1.jpg'
 </table>
 </div>
 
-
 </div>
 </div>
-

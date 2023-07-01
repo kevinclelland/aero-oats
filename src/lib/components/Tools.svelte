@@ -1,26 +1,26 @@
 <script>
-    const listData = [
-		{ avatar: 'YOErFW8AfkI', name: "PTO Points", label: 'Calculate PTO points', link: 'pto' },
-		{ avatar: 'z_X0PxmBuIQ', name: "Time Distance Pace", label: 'Calculate running pace, distance or time', link: 'tdp' },
-		{ avatar: '8vKVlNIbAc4', name: "Countdown", label: 'Days til next race', link: 'countdown' }
+	const listData = [
+		{ avatar: 'YOErFW8AfkI', name: 'PTO Points', label: 'Calculate PTO points', link: 'pto' },
+		{
+			avatar: 'z_X0PxmBuIQ',
+			name: 'Time Distance Pace',
+			label: 'Calculate running pace, distance or time',
+			link: 'tdp'
+		},
+		{ avatar: '8vKVlNIbAc4', name: 'Countdown', label: 'Days til next race', link: 'countdown' }
 	];
-
-    
 </script>
 
-
 <dl class="list-dl">
-    {#each listData as v}
-        <div>
-            
-            <span class="badge-icon p-4 variant-soft-secondary"><i class="fas fa-wrench"></i></span>
-            <a href="/{v.link}">
-            <span class="flex-auto">
-                <dt class="font-bold">{v.name}</dt>
-                <dd class="text-sm opacity-50">{v.label}</dd>
-            </span></a>
-            
-        
-        </div>
-    {/each}
+	{#each listData as v}
+		<div>
+			<span class="badge-icon p-4 variant-soft-secondary"><i class="fas fa-wrench" /></span>
+			<a href="/{v.link}">
+				<span class="flex-auto">
+					<dt class="font-bold">{v.name}</dt>
+					<dd class="text-sm opacity-50">{v.label}</dd>
+				</span></a
+			>
+		</div>
+	{/each}
 </dl>

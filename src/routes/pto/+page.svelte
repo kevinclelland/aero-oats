@@ -1,10 +1,5 @@
 <script lang="ts">
-
-import PTO from '$lib/components/PTO.svelte';
-
-
+	import PTO from '$lib/components/PTO.svelte';
 </script>
 
-
-    <PTO />
-        
+<PTO />

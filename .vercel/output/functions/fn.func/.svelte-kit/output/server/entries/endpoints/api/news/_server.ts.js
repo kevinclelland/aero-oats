@@ -1,6 +1,4 @@
 const GET = async (event) => {
-  return new Response("Hello");
+	return new Response('Hello');
 };
-export {
-  GET
-};
+export { GET };

@@ -1,1 +1,21 @@
-article.svelte-wljf2l{display:flex;gap:2rem}.details.svelte-wljf2l{padding-block:4rem}.title.svelte-wljf2l{margin:0}.overview.svelte-wljf2l{max-width:80ch}.backdrop.svelte-wljf2l{position:fixed;inset:0;background-image:var(--bg-image);background-size:cover;opacity:.04;z-index:-10}
+article.svelte-wljf2l {
+	display: flex;
+	gap: 2rem;
+}
+.details.svelte-wljf2l {
+	padding-block: 4rem;
+}
+.title.svelte-wljf2l {
+	margin: 0;
+}
+.overview.svelte-wljf2l {
+	max-width: 80ch;
+}
+.backdrop.svelte-wljf2l {
+	position: fixed;
+	inset: 0;
+	background-image: var(--bg-image);
+	background-size: cover;
+	opacity: 0.04;
+	z-index: -10;
+}

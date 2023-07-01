@@ -1,6 +1,6 @@
-import { c as create_ssr_component, v as validate_component } from "../../../chunks/index3.js";
+import { c as create_ssr_component, v as validate_component } from '../../../chunks/index3.js';
 const TDP = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<body><div class="flex grid grid-cols-3 gap-4 p-4"><div class="col-span-3 mx-auto max-w-lg"><p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">Time Distance Pace</p>
+	return `<body><div class="flex grid grid-cols-3 gap-4 p-4"><div class="col-span-3 mx-auto max-w-lg"><p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">Time Distance Pace</p>
           <p class="text-center p-2">Calculate your time, distance or pace</p></div></div>
 
 
@@ -158,8 +158,6 @@ const TDP = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <\/script></body>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(TDP, "TDP").$$render($$result, {}, {}, {})}`;
+	return `${validate_component(TDP, 'TDP').$$render($$result, {}, {}, {})}`;
 });
-export {
-  Page as default
-};
+export { Page as default };

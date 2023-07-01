@@ -1,6 +1,6 @@
-import { c as create_ssr_component, v as validate_component } from "../../../chunks/index3.js";
+import { c as create_ssr_component, v as validate_component } from '../../../chunks/index3.js';
 const Countdown = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<body><div class="flex grid grid-cols-3 gap-4 p-4"><div class="col-span-3 mx-auto max-w-lg"><p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">The Countdown</p>
+	return `<body><div class="flex grid grid-cols-3 gap-4 p-4"><div class="col-span-3 mx-auto max-w-lg"><p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">The Countdown</p>
       <p class="text-center p-2">What&#39;s between you and your race?</p></div></div>
   
   
@@ -94,8 +94,6 @@ const Countdown = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   <\/script></body>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Countdown, "Countdown").$$render($$result, {}, {}, {})}`;
+	return `${validate_component(Countdown, 'Countdown').$$render($$result, {}, {}, {})}`;
 });
-export {
-  Page as default
-};
+export { Page as default };

@@ -1,6 +1,6 @@
-import { c as create_ssr_component } from "../../../chunks/index3.js";
+import { c as create_ssr_component } from '../../../chunks/index3.js';
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<header class="w-full text-slate-950"><nav class="flex flex-col md:flex-row gap-3 items-center justify-around bg-stone-300 py-5 px-4"><div class="md:w-2/12 text-center md:text-left"><p class="font-serif text-xl font-bold">By Aero Oats.</p>
+	return `<header class="w-full text-slate-950"><nav class="flex flex-col md:flex-row gap-3 items-center justify-around bg-stone-300 py-5 px-4"><div class="md:w-2/12 text-center md:text-left"><p class="font-serif text-xl font-bold">By Aero Oats.</p>
         <p class="font-serif text-sm">Bi-weekly triathlon newsletter for you to chew through while you munch your morning oats.</p></div>
       <div><h1 class="font-serif text-4xl font-bold text-black">THE TRIATHLON PAPER</h1>
         <h1 class="text-center text-2xl">Global Distribution</h1></div>
@@ -59,6 +59,4 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <p class="font-sans text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus nulla voluptate itaque. Doloremque eveniet est, ratione illo atque, ut hic nemo earum rem, in tempore! Placeat commodi exercitationem sit sed.</p>
         <p class="mt-3 md:columns-3 columns-2 font-sans text-sm first-letter:font-serif first-letter:text-3xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem impedit debitis unde necessitatibus voluptatem nostrum. Laborum, ad cumque nihil quam quaerat atque soluta minus. Dolorem, autem veniam. Laudantium, at architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum maiores quo, quis velit provident rerum molestiae animi. Magni, delectus maiores? Sunt at maiores exercitationem pariatur nihil eveniet facere suscipit praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam nisi fuga recusandae adipisci, similique dolor soluta, perspiciatis provident rem ex, maxime neque voluptatum iure doloremque voluptatem impedit ipsam deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta debitis assumenda facere laudantium vel culpa accusantium, possimus alias rem, quibusdam explicabo porro excepturi amet! Accusamus mollitia libero at cumque quae!</p></article></section></div>`;
 });
-export {
-  Page as default
-};
+export { Page as default };
