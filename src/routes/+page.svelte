@@ -9,7 +9,7 @@
 	import { formatDate } from '$lib/utils';
 	import * as config from '$lib/config';
 	import Forumsmall from '$lib/components/Forumsmall.svelte';
-
+	
 	export let data: any;
 
 	let tabSet: number = 0;
@@ -19,6 +19,8 @@
 		newest: 'Race Reviews by You.',
 		following: 'Posts by users you follow.'
 	};
+
+	/** @type {import('./$types').PageData} */
 </script>
 
 <svelte:head>
@@ -35,8 +37,8 @@
 			<div class="p-4 space-y-4">
 				<TabGroup>
 					<!-- Tabs -->
-					<Tab bind:group={tabsBasic} name="books" value={0}>Race Reports</Tab>
-					<Tab bind:group={tabsBasic} name="movies" value={1}>News</Tab>
+					<Tab bind:group={tabsBasic} name="books" value={0}>Newsletter Posts</Tab>
+					<Tab bind:group={tabsBasic} name="movies" value={1}>Race Reports</Tab>
 					<Tab bind:group={tabsBasic} name="tv" value={2}>Blog</Tab>
 					<!-- Panel -->
 					<svelte:fragment slot="panel">
@@ -44,7 +46,27 @@
 							<article>
 								<!-- Posts -->
 								<section>
-									{#each data.posts as post}
+									<div class="h3">Recent newsletter posts</div>
+									<div class="p-4 h4">
+										
+										<div class="">
+											{#each data.newsletters as newsletter}
+											<li>
+											  <a target="_blank" href={newsletter.link} rel="noreferrer">
+												{newsletter.title}
+											  </a>
+											</li>
+										  {/each}
+										  </div>
+										
+									</div>
+
+									
+								</section>
+							</article>
+						{:else if tabsBasic === 1}
+						<div class="h3">Read Race Reports</div>
+						{#each data.posts as post}
 										<div class="p-4">
 											<span class="flex justify-between"
 												><h3 class="h3" data-toc-ignore>
@@ -60,15 +82,6 @@
 											<hr class="opacity-90" />
 										</div>
 									{/each}
-								</section>
-							</article>
-						{:else if tabsBasic === 1}
-							
-						<div class="p-4">
-							
-							Coming soon
-							
-						</div>
 
 						{:else if tabsBasic === 2}
 							<p>{desc.following}</p>

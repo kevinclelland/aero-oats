@@ -11,3 +11,5 @@ export type Post = {
 	user: string;
 	avatar: any;
 };
+
+

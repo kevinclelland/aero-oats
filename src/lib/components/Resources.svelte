@@ -48,6 +48,24 @@
 						<span class="flex-auto">Harry Palmer</span>
 					</a>
 				</li>
+				<li class="p-2">
+					<a href="https://www.youtube.com/@lauraaddietriathlon/featured">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Laura Addie</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.youtube.com/@Reastle1">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Ruth Astle</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://www.youtube.com/@joeskipper91">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Joe Skipper</span>
+					</a>
+				</li>
 				<!-- ... -->
 			</ul>
 
@@ -67,6 +85,54 @@
 					<a href="https://www.fitter.co.nz/listen-radio">
 						<span class="badge bg-primary-500">💀</span>
 						<span class="flex-auto">Fitter Radio</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">That Triathlon Life</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://protrinews.buzzsprout.com/">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Pro Tri News</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">The Triathlon Hour</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">One Moment Longer</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Triathlon Age Group Journey</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Inside Tri Show</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Purple Patch Podcast</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">Brick Session Media</span>
 					</a>
 				</li>
 				<!-- ... -->
@@ -109,6 +175,12 @@
 					<a href="https://www.precisionhydration.com/">
 						<span class="badge bg-primary-500">💀</span>
 						<span class="flex-auto">Precision Hydration</span>
+					</a>
+				</li>
+				<li class="p-2">
+					<a href="https://protriathletes.org/">
+						<span class="badge bg-primary-500">💀</span>
+						<span class="flex-auto">PTO</span>
 					</a>
 				</li>
 				<!-- ... -->

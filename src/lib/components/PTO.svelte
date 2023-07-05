@@ -10,22 +10,16 @@
 				quicker?"
 			</p>
 			<p class="italic text-center text-sm">
-				<a href="https://protriathletes.org/pto-world-ranking-system/"
+				<a href="https://protriathletes.org/pto-world-ranking-system/" target="_blank"
 					>Click here for more info on the calculations.</a
 				>
 			</p>
 		</div>
 	</div>
 
-	<div class="flex grid grid-cols-2 gap-4 p-4">
-		<div class="col-span-1 mx-auto max-w-xl">
-			<h2
-				class="text-2xl font-semibold underline decoration-dotted transition duration-150 ease-in-out"
-				data-te-toggle="tooltip"
-				title="Please enter the PTO points for the 5 athletes ranked the highest on the PTO rankings who will start this race."
-			>
-				Pre Race Info
-			</h2>
+	<div class="flex grid grid-cols-1 md:grid-cols-2 gap-4 p-4 max-w-4xl mx-auto">
+		<div class="col-span-1 mx-auto">
+			<h2 class="text-2xl font-semibold">Pre Race Info</h2>
 
 			<label class="label p-2">
 				<span>Select Race Tier:</span>
@@ -40,167 +34,56 @@
 
 			<label class="label p-2">
 				<span>Enter Race SOF</span>
-				<input
-					class="input variant-form-material text-lg p-2"
-					type="number"
-					placeholder="Enter Race SOF"
-					id="start1"
-				/>
+				<input class="input variant-form-material text-lg p-2" type="number" placeholder="Enter Race SOF" id="start1"/>
 			</label>
 
-			<span class="italic"
-				>The SOF and Tier can be found on the PTO website <a
-					href="https://protriathletes.org/"
-					target="_blank"
-					>here. This single number is an average of the PTO points for the top 5 highest ranked
-					athletes starting the race.</a
-				></span
-			>
+			<span class="italic">The SOF and Tier can be found on the PTO website <a href="https://protriathletes.org/" target="_blank">here. This single number is an average of the PTO points for the top 5 highest ranked athletes starting the race.</a></span>
 		</div>
 
-		<div class="col-span-1 mx-auto max-w-xl">
-			<h2
-				class="text-2xl font-semibold underline decoration-dotted transition duration-150 ease-in-out"
-				data-te-toggle="tooltip"
-				title="Please enter how many pro athletes finished the race as well as the top 5 finishers times. You can also insert your time and position to see how you stack up."
-			>
-				Results Info
-			</h2>
+		<div class="col-span-1 mx-auto items-end">
+			<h2	class="text-2xl font-semibold">Results Info</h2>
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-					type="number"
-					placeholder=" "
-					id="numberfinishers"
-				/>
-				<label
-					for="numberfinishers"
-					class="absolute text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Number of finishers</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Finishers</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2" type="number" placeholder="Number of Finishers" id="numberfinishers"/>
+			</label>
+			
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-					type="time"
-					step="1"
-					id="finisher1"
-				/>
-				<label
-					for="finisher1"
-					class="absolute text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Winners Time</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Winners Time</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2"	type="time"	step="1" id="finisher1"/>
+			</label>
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-					type="time"
-					step="1"
-					id="finisher2"
-				/>
-				<label
-					for="finisher2"
-					class="absolute text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Second Place</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Second Place</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2"	type="time"	step="1" id="finisher2"/>
+			</label>
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-					type="time"
-					step="1"
-					id="finisher3"
-				/>
-				<label
-					for="finisher3"
-					class="absolute text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Third Place</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Third Place</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2"	type="time"	step="1" id="finisher3"/>
+			</label>
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-					type="time"
-					step="1"
-					id="finisher4"
-				/>
-				<label
-					for="finisher4"
-					class="absolute text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Fourth Place</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Fourth Place</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2"	type="time"	step="1" id="finisher4"/>
+			</label>
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-					type="time"
-					step="1"
-					id="finisher5"
-				/>
-				<label
-					for="finisher5"
-					class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Fifth Place</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Fifth Place</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2"	type="time"	step="1" id="finisher5"/>
+			</label>
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-					type="time"
-					step="1"
-					id="finisheryou"
-				/>
-				<label
-					for="finisheryou"
-					class="absolute text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Your Time</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Your Time</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2"	type="time"	step="1" id="finisheryou"/>
+			</label>
 
-			<div class="relative py-2">
-				<input
-					class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-ao-orange focus:outline-none focus:ring-0 focus:border-ao-orange peer"
-					type="number"
-					placeholder=" "
-					id="finisherplace"
-				/>
-				<label
-					for="finisherplace"
-					class="absolute text-sm duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
-					>Your Place</label
-				>
-			</div>
+			<label class="label flex justify-end items-center">
+				<span>Your Place:</span>
+				<input class="input variant-form-material text-lg p-2 w-min mx-2" type="number" placeholder="6" id="finisherplace"/>
+			</label>
 
-			<!--
-        <div class="visualinput">
-          <form action="/action_page.php">
-            <label for="numberfinishers">Number of finishers:</label>
-            <input type="number" id="numberfinishers" name="numberfinishers" value="1"><br>
-            <label for="finisher1">Winners Time:</label>
-            <input type="time" step="1" id="finisher1" name="finisher1" value="00:00:00"><br>
-            <label for="finisher2">Second Place Time:</label>
-            <input type="time" step="1" id="finisher2" name="finisher2" value="00:00:00"><br>
-            <label for="finisher3">Third Place Time:</label>
-            <input type="time" step="1" id="finisher3" name="finisher3" value="00:00:00"><br>
-            <label for="finisher4">Fourth Place Time:</label>
-            <input type="time" step="1" id="finisher4" name="finisher4" value="00:00:00"><br>
-            <label for="finisher5">Fifth Place Time:</label>
-            <input type="time" step="1" id="finisher5" name="finisher5" value="00:00:00"><br>
-            <label for="finisheryou">Your Time:</label>
-            <input type="time" step="1" id="finisheryou" name="finisheryou" value="00:00:00"><br>
-            <label for="finisherplace">Your Place:</label>
-            <input type="number" id="finisherplace" name="finisherplace" value="6"><br>
-          </form> 
-        </div>
-        -->
 		</div>
 	</div>
 

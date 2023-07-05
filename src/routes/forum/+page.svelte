@@ -6,10 +6,10 @@
   
 
 <div class="p-4">
-  {#each data.posts as post}
+  {#each data.newsletters as newsletter}
   <li>
-    <a target="_blank" href={post.link} rel="noreferrer">
-      {post.title}
+    <a target="_blank" href={newsletter.link} rel="noreferrer">
+      {newsletter.title}
     </a>
   </li>
 {/each}

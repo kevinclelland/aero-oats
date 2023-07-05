@@ -48,13 +48,7 @@
 						</span>
 					</button>
 					<div class="animate-pulse">👈</div>
-					<span
-						class="text-right bg-gradient-to-br from-ao-newpink to-ao-teal bg-clip-text text-transparent box-decoration-clone"
-					>
-						<strong class="text-base sm:text-xl uppercase px-1"
-							><a href="/start">Start Here</a></strong
-						></span
-					>
+					
 				</div>
 			</svelte:fragment>
 			<a href="/">
