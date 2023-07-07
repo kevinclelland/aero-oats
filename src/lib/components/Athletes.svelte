@@ -85,35 +85,8 @@
 			name: 'Emma Pallant-Browne',
 			label: 'Instagram',
 			link: './athleteprofiles/movie/emma-pallant-browne'
-		},
-		{
-			avatar:
-				'',
-			name: 'Laura Addie',
-			label: 'Instagram',
-			link: './athleteprofiles/movie/laura-addie'
-		},
-		{
-			avatar:
-				'https://content.protriathletes.org/content/images/2023/03/eeda5527-9eec-4e19-bfba-96cfec795419-w300.webp',
-			name: 'Ruth Astle',
-			label: 'Instagram',
-			link: './athleteprofiles/movie/ruth-astle'
-		},
-		{
-			avatar:
-				'',
-			name: 'Eloise Du Luart',
-			label: 'Instagram',
-			link: './athleteprofiles/movie/eloise-du-luart'
-		},
-		{
-			avatar:
-				'https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp',
-			name: 'Natia van Heerden',
-			label: 'Instagram',
-			link: './athleteprofiles/movie/natia-van-heerden'
 		}
+		
 	];
 </script>
 

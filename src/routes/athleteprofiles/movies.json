@@ -130,49 +130,5 @@
 		"release_date": "1983-05-25",
 		"vote_average": 7.9,
 		"youtube": "https://www.youtube.com/embed/4V8zhIlmli8"
-	},
-	{
-		"title": "Laura Addie",
-		"id": "laura-addie",
-		"avatar": "",
-		"overview": "I'm coming up so you better get this party started...",
-		"poster_path": "/images/la.jpg",
-		"backdrop_path": "/images/epbbg.jpg",
-		"release_date": "1983-05-25",
-		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/oP7RvFdeM4s"
-	},
-	{
-		"title": "Ruth Astle",
-		"id": "ruth-astle",
-		"avatar": "https://content.protriathletes.org/content/images/2023/03/eeda5527-9eec-4e19-bfba-96cfec795419-w300.webp",
-		"overview": "Injued but on the comeback trail...",
-		"poster_path": "/images/ra.webp",
-		"backdrop_path": "/images/rabg.webp",
-		"release_date": "1983-05-25",
-		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/6dSLipELRMo"
-	},
-	{
-		"title": "Eloise du Luart",
-		"id": "eloise-du-luart",
-		"avatar": "",
-		"overview": "Taking the sport by storm...",
-		"poster_path": "/images/edl.jpg",
-		"backdrop_path": "/images/edlbg.jpg",
-		"release_date": "1983-05-25",
-		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/iAiNEPFqApw"
-	},
-	{
-		"title": "Natia van Heerden",
-		"id": "natia-van-heerden",
-		"avatar": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
-		"overview": "Ex age grouper who is now a pro...",
-		"poster_path": "/images/nvh.webp",
-		"backdrop_path": "/images/nvhbg.jpg",
-		"release_date": "1983-05-25",
-		"vote_average": 7.9,
-		"youtube": ""
 	}
 ]

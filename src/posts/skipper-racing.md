@@ -1,6 +1,6 @@
 ---
-title: Skipper Racing
-description: Joe Skipper is seeking redemption this weekend.
+title: Coming soon
+description: Busy being sourced.
 date: '2022-4-16'
 categories:
   - sveltekit

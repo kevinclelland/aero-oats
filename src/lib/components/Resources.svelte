@@ -26,43 +26,43 @@
 			<ul>
 				<li class="p-2">
 					<a href="https://www.youtube.com/@Lionel.Sanders">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">📺</span>
 						<span class="flex-auto">Lionel Sanders</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.youtube.com/@thedailytri">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">📺</span>
 						<span class="flex-auto">The Daily Tri</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.youtube.com/@gtn">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">📺</span>
 						<span class="flex-auto">GTN</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.youtube.com/@Harry-Palmer">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">📺</span>
 						<span class="flex-auto">Harry Palmer</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.youtube.com/@lauraaddietriathlon/featured">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">📺</span>
 						<span class="flex-auto">Laura Addie</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.youtube.com/@Reastle1">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">📺</span>
 						<span class="flex-auto">Ruth Astle</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.youtube.com/@joeskipper91">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">📺</span>
 						<span class="flex-auto">Joe Skipper</span>
 					</a>
 				</li>
@@ -77,61 +77,61 @@
 			<ul>
 				<li class="p-2">
 					<a href="https://shows.acast.com/triathlon-mockery">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Triathlon Mockery</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.fitter.co.nz/listen-radio">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Fitter Radio</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">That Triathlon Life</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://protrinews.buzzsprout.com/">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Pro Tri News</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">The Triathlon Hour</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">One Moment Longer</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Triathlon Age Group Journey</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Inside Tri Show</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Purple Patch Podcast</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Brick Session Media</span>
 					</a>
 				</li>
@@ -143,13 +143,13 @@
 			<ul>
 				<li class="p-2">
 					<a href="https://www.triathlonish.com/">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">💌</span>
 						<span class="flex-auto">Triathlon-ish</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://aerooats.beehiiv.com/">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">💌</span>
 						<span class="flex-auto">Aero Oats</span>
 					</a>
 				</li>
@@ -161,25 +161,25 @@
 			<ul>
 				<li class="p-2">
 					<a href="https://www.obstri.com/">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">💻</span>
 						<span class="flex-auto">Obsessed Triathlete</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.tri247.com/">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">💻</span>
 						<span class="flex-auto">Tri 247</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://www.precisionhydration.com/">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">💻</span>
 						<span class="flex-auto">Precision Hydration</span>
 					</a>
 				</li>
 				<li class="p-2">
 					<a href="https://protriathletes.org/">
-						<span class="badge bg-primary-500">💀</span>
+						<span class="badge bg-primary-500">💻</span>
 						<span class="flex-auto">PTO</span>
 					</a>
 				</li>

@@ -1,6 +1,6 @@
 ---
-title: Frodeno wins Hamburg!
-description: The GOAT is finally back to his winning ways at Ironman Hamburg.
+title: Coming soon!
+description: Busy being sourced.
 date: '2022-4-14'
 categories:
   - sveltekit
