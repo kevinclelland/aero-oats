@@ -130,5 +130,126 @@
 		"release_date": "1983-05-25",
 		"vote_average": 7.9,
 		"youtube": "https://www.youtube.com/embed/4V8zhIlmli8"
+	},
+	{
+		"title": "Brad Weiss",
+		"id": "brad-weiss",
+		"avatar": "https://content.protriathletes.org/content/images/2023/05/2e0a6641-3289-438a-97a6-b324b60e79f1-w300.webp",
+		"overview": "Xterra World Champion and all round nice guy...",
+		"poster_path": "https://content.protriathletes.org/content/images/2023/05/2e0a6641-3289-438a-97a6-b324b60e79f1-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/2e0a6641-3289-438a-97a6-b324b60e79f1-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/MciEC0hh6cc"
+	},
+	{
+		"title": "Matt Trautman",
+		"id": "matt-trautman",
+		"avatar": "https://content.protriathletes.org/content/images/2021/05/c5d14d82-5c2e-4f87-9e9c-748fa8fb0403-w300.webp",
+		"overview": "Ex-sailor who is now one of the best triathletes in the world...",
+		"poster_path": "https://content.protriathletes.org/content/images/2021/05/c5d14d82-5c2e-4f87-9e9c-748fa8fb0403-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2021/05/c5d14d82-5c2e-4f87-9e9c-748fa8fb0403-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/siEzzfzc7xo"
+	},
+	{
+		"title": "Jeanni Metzler",
+		"id": "jeanni-metzler",
+		"avatar": "https://content.protriathletes.org/content/images/2022/01/1a360abd-2b07-4120-88c3-5dfd2b81a1b2-w300.webp",
+		"overview": "South African now living in the USA who is recently back to her best...",
+		"poster_path": "https://content.protriathletes.org/content/images/2022/01/1a360abd-2b07-4120-88c3-5dfd2b81a1b2-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2022/01/1a360abd-2b07-4120-88c3-5dfd2b81a1b2-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/N4IccIXXAec"
+	},
+	{
+		"title": "Cameron Macnair",
+		"id": "cameron-macnair",
+		"avatar": "https://content.protriathletes.org/content/images/2021/05/aa5e5fd7-bcb1-476b-bdfa-82ef1a1d547a-w300.webp",
+		"overview": "One to watch in the future...",
+		"poster_path": "https://content.protriathletes.org/content/images/2021/05/aa5e5fd7-bcb1-476b-bdfa-82ef1a1d547a-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2021/05/aa5e5fd7-bcb1-476b-bdfa-82ef1a1d547a-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/HRBVbrMCNk0"
+	},
+	{
+		"title": "Natia van Heerden",
+		"id": "natia-van-heerden",
+		"avatar": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
+		"overview": "Graduated from the Zwift academy in 2019 and came 2nd age-grouper in the 2019 World Championships...",
+		"poster_path": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/siJhtawe0-c"
+	},
+	{
+		"title": "Henri Schoeman",
+		"id": "henri-schoeman",
+		"avatar": "https://content.protriathletes.org/content/images/2021/05/3f3dedb4-5151-4d0e-9013-768a1777b4ca-w300.webp",
+		"overview": "Olympic bronze medalist and 2018 Commonwealth Games champion...",
+		"poster_path": "https://content.protriathletes.org/content/images/2021/05/3f3dedb4-5151-4d0e-9013-768a1777b4ca-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2021/05/3f3dedb4-5151-4d0e-9013-768a1777b4ca-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/BOL8VKlxX-I"
+	},
+	{
+		"title": "Sarah True",
+		"id": "sarah-true",
+		"avatar": "https://content.protriathletes.org/content/images/2023/03/149331e4-8827-461e-bf88-bd5b48b56987-w300.webp",
+		"overview": "No frills, just hard work and a lot of talent...",
+		"poster_path": "https://content.protriathletes.org/content/images/2023/03/149331e4-8827-461e-bf88-bd5b48b56987-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2023/03/149331e4-8827-461e-bf88-bd5b48b56987-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/8axEtqbzdfM"
+	},
+	{
+		"title": "Kat Matthews",
+		"id": "kat-matthews",
+		"avatar": "https://content.protriathletes.org/content/images/2023/05/8d56b74b-7c86-484a-8cbb-363661797c45-w300.webp",
+		"overview": "Survivor of a near fatal accident and on the comeback trail...",
+		"poster_path": "https://content.protriathletes.org/content/images/2023/05/8d56b74b-7c86-484a-8cbb-363661797c45-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/8d56b74b-7c86-484a-8cbb-363661797c45-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/QOClUTSUQWk"
+	},
+	{
+		"title": "Ruth Astle",
+		"id": "ruth-astle",
+		"avatar": "https://content.protriathletes.org/content/images/2023/03/eeda5527-9eec-4e19-bfba-96cfec795419-w300.webp",
+		"overview": "Kona age-group champion...",
+		"poster_path": "https://content.protriathletes.org/content/images/2023/03/eeda5527-9eec-4e19-bfba-96cfec795419-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2023/03/eeda5527-9eec-4e19-bfba-96cfec795419-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/6dSLipELRMo"
+	},
+	{
+		"title": "Kyle Smith",
+		"id": "kyle-smith",
+		"avatar": "https://content.protriathletes.org/content/images/2023/05/e02d2ea4-707b-419b-b64b-9f5a5d702f73-w300.webp",
+		"overview": "Training partner of Jan Frodeno and 2019 Ironman 70.3 Taupo champion...",
+		"poster_path": "https://content.protriathletes.org/content/images/2023/05/e02d2ea4-707b-419b-b64b-9f5a5d702f73-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/e02d2ea4-707b-419b-b64b-9f5a5d702f73-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/TMqi7qsTY8U"
+	},
+	{
+		"title": "Javier Gomez",
+		"id": "javier-gomez",
+		"avatar": "https://content.protriathletes.org/content/images/2021/03/f994056a-2a7f-4672-b4f4-d3b5081fb873-w300.webp",
+		"overview": "Multiple world champion and Olympic silver medalist...",
+		"poster_path": "https://content.protriathletes.org/content/images/2021/03/f994056a-2a7f-4672-b4f4-d3b5081fb873-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2021/03/f994056a-2a7f-4672-b4f4-d3b5081fb873-w300.webp",
+		"release_date": "1983-05-25",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/atjQ7YMakuU"
 	}
 ]

@@ -3,6 +3,8 @@
 	import Subscribe from '$lib/components/Subscribe.svelte';
 	import Tools from '$lib/components/Tools.svelte';
 	import Athletes from '$lib/components/Athletes.svelte';
+	import AthletesSA from '$lib/components/AthletesSA.svelte';
+	import AthletesRoot from '$lib/components/AthletesRoot.svelte';
 	import RSS from '$lib/components/RSS.svelte';
 	import { Avatar, TabGroup, Tab } from '@skeletonlabs/skeleton';
 
@@ -124,9 +126,17 @@
 			<h6 class="h6 p-4">Some useful triathlon calculators.</h6>
 			<Tools />
 
-			<h3 class="p-4 h3">Athlete Profiles</h3>
+			<h3 class="p-4 h3">Athletes - The Big Dogs</h3>
 			<hr />
 			<Athletes />
+
+			<h3 class="p-4 h3 flex items-center"><div class="pr-2">Athletes - The Saffas</div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36"><path fill="#DE3830" d="M32 5H6.5L19 13.5h17V9a4 4 0 0 0-4-4z"/><path fill="#002395" d="M6.5 31H32a4 4 0 0 0 4-4v-4.5H19L6.5 31z"/><path fill="#141414" d="M0 11v14l10.5-7z"/><path fill="#FFB611" d="M0 9v2l10.5 7L0 25v2l13.5-9z"/><path fill="#007A4D" d="M3.541 5.028A4 4 0 0 0 0 9l13.5 9L0 27a4 4 0 0 0 3.541 3.972L18.5 20.5H36v-5H18.5L3.541 5.028z"/><path fill="#EEE" d="M6.5 5H4c-.156 0-.308.011-.459.028L18.5 15.5H36v-2H19L6.5 5zM3.541 30.972c.151.017.303.028.459.028h2.5L19 22.5h17v-2H18.5L3.541 30.972z"/></svg></h3>
+			<hr />
+			<AthletesSA />
+
+			<h3 class="p-4 h3">Athletes - Our Favourites</h3>
+			<hr />
+			<AthletesRoot />
 
 			<h3 class="p-4 h3">Upcoming Races</h3>
 			<hr />

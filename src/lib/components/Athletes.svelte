@@ -4,10 +4,10 @@
 	const listData = [
 		{
 			avatar:
-				'https://content.protriathletes.org/content/images/2023/03/2731d991-06b4-47d9-8f7c-fa18ee7f48e7-w300.webp',
-			name: 'Lionel Sanders',
+				'https://content.protriathletes.org/content/images/2023/06/e369fee4-b8f7-43d1-8a12-7c2770cdd6db-w300.webp',
+			name: 'Daniela Ryf',
 			label: 'Youtube, Instagram, Discord',
-			link: './athleteprofiles/movie/lionel-sanders'
+			link: './athleteprofiles/movie/daniela-ryf'
 		},
 		{
 			avatar:
@@ -18,10 +18,10 @@
 		},
 		{
 			avatar:
-				'https://content.protriathletes.org/content/images/2023/03/efa7f753-6a3d-4027-b118-b066f2377493-w300.webp',
-			name: 'Joe Skipper',
+				'https://content.protriathletes.org/content/images/2023/05/70692734-0a71-40b2-aa77-fb0fc32d4a0a-w300.webp',
+			name: 'Max Neumann',
 			label: 'Youtube, Instagram, Podcast',
-			link: './athleteprofiles/movie/joe-skipper'
+			link: './athleteprofiles/movie/max-neumann'
 		},
 		{
 			avatar:
@@ -81,10 +81,10 @@
 		},
 		{
 			avatar:
-				'https://content.protriathletes.org/content/images/2023/05/5ad53c5c-b684-42cb-8c49-f0aa8d910b42-w300.webp',
-			name: 'Emma Pallant-Browne',
+				'https://content.protriathletes.org/content/images/2023/05/76ecee89-4618-4d5a-978c-a13a93e92689-w300.webp',
+			name: 'Chelsea Sodaro',
 			label: 'Instagram',
-			link: './athleteprofiles/movie/emma-pallant-browne'
+			link: './athleteprofiles/movie/chelsea-sodaro'
 		}
 		
 	];
