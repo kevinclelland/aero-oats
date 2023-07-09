@@ -86,26 +86,22 @@
 						{:else if tabsBasic === 2}
 						<article>
 							<!-- Posts -->
-							<section>
-								<div class="h3">Recent News from Tri247 </div>
-								
-								<div class="p-4">
-									
-									<div class="">
-										{#each data.newsitems as newsitem}
-										<li class="">
-										  <a target="_blank" href={newsitem.link} rel="noreferrer">
-											{newsitem.title}
-										  </a>
-										  
-										</li>
-									  {/each}
-									  </div>
-									
-								</div>
+							
+							<div class="h3">Recent News from Tri247 </div>
+							{#each data.newsitems as newsitem}
+										<div class="p-4">
+											<span class="flex justify-between"><h3 class="h3" data-toc-ignore>
+													<a href={newsitem.link} class="title">{newsitem.title}</a>
+												</h3>
+												</span>
+											<p class="date">{formatDate(newsitem.pubDate)}</p>
+											
+											<br />
+											<hr class="opacity-90" />
+										</div>
+									{/each}
 
-								
-							</section>
+
 						</article>
 						{/if}
 					</svelte:fragment>
