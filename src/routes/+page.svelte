@@ -39,7 +39,7 @@
 					<!-- Tabs -->
 					<Tab bind:group={tabsBasic} name="books" value={0}>Newsletter Posts</Tab>
 					<Tab bind:group={tabsBasic} name="movies" value={1}>Race Reports</Tab>
-					<Tab bind:group={tabsBasic} name="tv" value={2}>Blog</Tab>
+					<Tab bind:group={tabsBasic} name="tv" value={2}>News</Tab>
 					<!-- Panel -->
 					<svelte:fragment slot="panel">
 						{#if tabsBasic === 0}
@@ -84,8 +84,29 @@
 									{/each}
 
 						{:else if tabsBasic === 2}
-							<p>{desc.following}</p>
-							Coming soon
+						<article>
+							<!-- Posts -->
+							<section>
+								<div class="h3">Recent News from Tri247 </div>
+								
+								<div class="p-4">
+									
+									<div class="">
+										{#each data.newsitems as newsitem}
+										<li class="">
+										  <a target="_blank" href={newsitem.link} rel="noreferrer">
+											{newsitem.title}
+										  </a>
+										  
+										</li>
+									  {/each}
+									  </div>
+									
+								</div>
+
+								
+							</section>
+						</article>
 						{/if}
 					</svelte:fragment>
 				</TabGroup>

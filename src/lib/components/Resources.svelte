@@ -100,37 +100,37 @@
 					</a>
 				</li>
 				<li class="p-2">
-					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+					<a href="https://podcasts.apple.com/us/podcast/the-triathlon-hour/id1595443343">
 						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">The Triathlon Hour</span>
 					</a>
 				</li>
 				<li class="p-2">
-					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+					<a href="https://podcasts.apple.com/us/podcast/the-greg-bennett-show/id1492933135">
 						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">One Moment Longer</span>
 					</a>
 				</li>
 				<li class="p-2">
-					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+					<a href="https://podcasts.apple.com/us/podcast/the-triathlon-age-group-journey/id1652784090">
 						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Triathlon Age Group Journey</span>
 					</a>
 				</li>
 				<li class="p-2">
-					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+					<a href="https://www.insidetrishow.com/">
 						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Inside Tri Show</span>
 					</a>
 				</li>
 				<li class="p-2">
-					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+					<a href="https://www.purplepatchfitness.com/podcast">
 						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Purple Patch Podcast</span>
 					</a>
 				</li>
 				<li class="p-2">
-					<a href="https://thattriathlonlife.com/products/podcast?selling_plan=645464203&variant=40850061361291">
+					<a href="https://www.thebricksession.com/">
 						<span class="badge bg-primary-500">🎧</span>
 						<span class="flex-auto">Brick Session Media</span>
 					</a>

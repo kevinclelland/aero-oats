@@ -17,7 +17,13 @@ export async function load({ fetch }: any) {
   const newsletters = fetch(RSS_URL)
     .then((response: { text: () => any; }) => response.text())
     .then((rawXml: string) => parseXml(rawXml).rss.channel.item);
-  return { newsletters, posts };
+
+    const TRI247_URL = `https://www.tri247.com/feed`;
+    const newsitems = fetch(TRI247_URL)
+      .then((response: { text: () => any; }) => response.text())
+      .then((rawXml: string) => parseXml(rawXml).rss.channel.item);
+
+  return { newsletters, posts, newsitems };
   
 };
 
