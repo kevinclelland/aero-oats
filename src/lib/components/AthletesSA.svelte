@@ -43,6 +43,13 @@
 			name: 'Henri Schoeman',
 			label: 'Instagram',
 			link: './athleteprofiles/movie/henri-schoeman'
+		},
+		{
+			avatar:
+				'https://content.protriathletes.org/content/images/2021/05/3e241918-33d6-475b-8fb9-7c830aaff46b-w300.webp',
+			name: 'Mariella Sawyer',
+			label: 'Instagram',
+			link: './athleteprofiles/movie/mariella-sawyer'
 		}
 		
 	];
