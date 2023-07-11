@@ -1,17 +1,20 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
 	import { Avatar } from '@skeletonlabs/skeleton';
-
+	
 	export let data;
 </script>
 
 <svelte:head>
-	<title>The Blog</title><!--{config.title}-->
+	<title>The Race Report Almanac</title><!--{config.title}-->
+	
 </svelte:head>
+
+
 
 <!-- Posts -->
 <section>
-	<h1 class="text-2xl">All Posts</h1>
+	<h1 class="text-2xl">The Race Report Almanac</h1>
 
 	<div class="mx-auto text-token grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
 		<!-- Detailed -->

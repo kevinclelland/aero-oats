@@ -40,7 +40,7 @@
 				<TabGroup>
 					<!-- Tabs -->
 					<Tab bind:group={tabsBasic} name="books" value={0}>Newsletter Posts</Tab>
-					<Tab bind:group={tabsBasic} name="movies" value={1}>Race Reports</Tab>
+					<Tab bind:group={tabsBasic} name="movies" value={1}>Recent Race Reports</Tab>
 					<Tab bind:group={tabsBasic} name="tv" value={2}>News</Tab>
 					<!-- Panel -->
 					<svelte:fragment slot="panel">
