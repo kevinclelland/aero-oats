@@ -93,7 +93,7 @@
 							{#each data.newsitems as newsitem}
 										<div class="p-4">
 											<span class="flex justify-between"><h3 class="h3" data-toc-ignore>
-													<a href={newsitem.link} class="title">{newsitem.title}</a>
+													<a href={newsitem.link} class="title" target="_blank">{newsitem.title}</a>
 												</h3>
 												</span>
 											<p class="date">{formatDate(newsitem.pubDate)}</p>
