@@ -39,8 +39,8 @@
 			<div class="p-4 space-y-4">
 				<TabGroup>
 					<!-- Tabs -->
-					<Tab bind:group={tabsBasic} name="books" value={0}>Newsletter Posts</Tab>
-					<Tab bind:group={tabsBasic} name="movies" value={1}>Recent Race Reports</Tab>
+					<Tab bind:group={tabsBasic} name="books" value={0}>Newsletter</Tab>
+					<Tab bind:group={tabsBasic} name="movies" value={1}>Race Reports</Tab>
 					<Tab bind:group={tabsBasic} name="tv" value={2}>News</Tab>
 					<!-- Panel -->
 					<svelte:fragment slot="panel">
@@ -67,7 +67,7 @@
 								</section>
 							</article>
 						{:else if tabsBasic === 1}
-						<div class="h3">Read Race Reports</div>
+						<div class="h3">Recent Race Reports</div>
 						{#each data.posts as post}
 										<div class="p-4">
 											<span class="flex justify-between"

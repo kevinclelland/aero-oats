@@ -14,7 +14,7 @@
 
 <!-- Posts -->
 <section>
-	<h1 class="text-2xl">The Race Report Almanac</h1>
+	<div class="text-center text-6xl p-4">Race Report Almanac</div>
 
 	<div class="mx-auto text-token grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
 		<!-- Detailed -->
