@@ -41,10 +41,10 @@
 		<span>Athletes: 1</span>
 		
 	</div>
-	<span>Updated 12 July 2023</span>
+	<span>Updated: 12 July 23</span>
 	<div class="flex items-center">
 		
-		<p class="px-2">Races Featured: 1</p>
+		<p class="px-2">Races: 1</p>
 	</div>
 </section>
 
