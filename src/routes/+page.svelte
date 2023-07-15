@@ -7,7 +7,7 @@
 	import AthletesRoot from '$lib/components/AthletesRoot.svelte';
 	import RSS from '$lib/components/RSS.svelte';
 	import { Avatar, TabGroup, Tab } from '@skeletonlabs/skeleton';
-
+	import Navigation from '$lib/components/Navigation.svelte';
 	import { formatDate } from '$lib/utils';
 	import * as config from '$lib/config';
 	import Forumsmall from '$lib/components/Forumsmall.svelte';
@@ -30,7 +30,22 @@
 </svelte:head>
 
 <div>
-	<div class="mx-auto max-w-7xl text-token grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-4 p-4">
+	<div class="mx-auto max-w-7xl xl:max-w-screen-2xl text-token grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-4">
+
+		<div class="hidden xl:block col-span-1 overflow-hidden">
+			<div class="card card-hover mb-4">
+			<h3 class="p-4 h3">Menu</h3>
+			<hr />
+			<Navigation />
+		</div>
+		<div class="card card-hover">
+			<h3 class="p-4 h3">Upcoming Races</h3>
+			<hr />
+			<Upcoming />
+		</div>
+		</div>
+
+
 		<!-- Main -->
 		<div class="col-span-3 card card-hover overflow-hidden">
 			<header>
@@ -138,9 +153,11 @@
 			<hr />
 			<AthletesRoot />
 
+			<div class="xl:hidden">
 			<h3 class="p-4 h3">Upcoming Races</h3>
 			<hr />
 			<Upcoming />
+			</div>
 		</div>
 	</div>
 </div>

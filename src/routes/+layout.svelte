@@ -28,7 +28,7 @@
 </script>
 
 <Drawer class="max-w-md">
-	<h2 class="p-4">Navigation</h2>
+	<h2 class="p-4">Menu</h2>
 	<hr />
 	<Navigation />
 </Drawer>
@@ -48,7 +48,7 @@
 						</span>
 					</button>
 					
-					
+					<div class="xl:hidden text-xl">👈</div>
 				</div>
 			</svelte:fragment>
 			<a href="/">
