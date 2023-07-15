@@ -43,7 +43,7 @@
 		<p class="text-2xl">Before you continue...</p>
 		<p>Mandatory viewing to get you pumped!</p>
 		<div class="p-4">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/li48PBhbXQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/li48PBhbXQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 	</div>
 
@@ -54,7 +54,7 @@
 		<Stepper class="p-4">
 			<Step>
 				<svelte:fragment slot="header">Watch this</svelte:fragment>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/n3331GKOwZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/n3331GKOwZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Clothing</svelte:fragment>

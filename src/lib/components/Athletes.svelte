@@ -4,7 +4,7 @@
 	const listData = [
 		{
 			avatar:
-				'https://content.protriathletes.org/content/images/2023/06/e369fee4-b8f7-43d1-8a12-7c2770cdd6db-w300.webp',
+				'https://content.protriathletes.org/content/images/2023/07/f42714f5-fcf9-44fb-9c7f-a55841d65d3e-w300.webp',
 			name: 'Daniela Ryf',
 			label: 'Youtube, Instagram, Discord',
 			link: './athleteprofiles/movie/daniela-ryf'
