@@ -48,7 +48,7 @@
 						</span>
 					</button>
 					
-					<div class="xl:hidden text-xl">👈</div>
+					<div class="hidden sm:block xl:hidden text-xl">👈</div>
 				</div>
 			</svelte:fragment>
 			<a href="/">
