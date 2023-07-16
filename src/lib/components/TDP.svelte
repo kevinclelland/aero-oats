@@ -75,7 +75,7 @@
 		<label class="label p-2 flex items-center justify-end" id="timeInputDiv">
 			<span class="px-2">Input Time</span>
 			<input
-				class="input text-lg p-2 max-w-xs"
+				class="input text-lg p-2 w-56"
 				type="time"
 				step="1"
 				placeholder="00:00:00 "
@@ -84,14 +84,14 @@
 		</label>
 
 		<label class="label p-2 flex items-center justify-end" id="distanceInputDiv">
-			<span class="px-2">Input Distance</span>
-			<input class="input text-lg p-2 max-w-xs" type="number" placeholder="Enter" id="distance" />
+			<span class="pr-6">Input Dist </span>
+			<input class="input text-lg p-2 w-56" type="number" placeholder="Enter" id="distance" />
 		</label>
 
 		<label class="label p-2 flex items-center justify-end" id="paceInputDiv">
 			<span class="px-2">Input Pace</span>
 			<input
-				class="input text-lg p-2 max-w-xs"
+				class="input text-lg p-2 w-56"
 				type="time"
 				step="1"
 				placeholder="00:00:00"
@@ -100,7 +100,7 @@
 		</label>
 
 		<br />
-		<div class="space-y-2">
+		<div class="space-y-2 p-4">
 			<label class="flex items-center space-x-2">
 				<input class="checkbox" type="checkbox" id="checkForMiles" />
 				<p>Check to use miles not kilometers</p>
