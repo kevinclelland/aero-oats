@@ -51,26 +51,39 @@
 
 	<div class="col-span-5 card card-hover p-4">
 		<p class="text-2xl p-4 font-semibold">Equipment</p>
-		<Stepper class="p-4">
+		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
 				<svelte:fragment slot="header">Watch this</svelte:fragment>
 				<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/n3331GKOwZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Clothing</svelte:fragment>
-				(content)
+				<ul class="list-decimal">
+				<li>Trisuit</li>
+				</ul>
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Swim</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">The Swim</svelte:fragment>
+				<ul class="list-decimal">
+					<li>Goggles</li>
+					<li>Swimming cap</li>
+					<li>Wetsuit (optional)</li>
+				</ul>
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Bike</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">The Bike</svelte:fragment>
+				<ul class="list-decimal">
+				<li>Race belt</li>
+				<li>Helmet</li>
+				<li>Bike (preferably a road bike)</li>
+				<li>Bike shoes (running shoes can be used)</li>
+				</ul>
 			</Step>
 			<Step on:complete={onCompleteHandler}>
-				<svelte:fragment slot="header">Run</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">The Run</svelte:fragment>
+				<ul class="list-decimal">
+					<li>Running shoes</li>
+				</ul>
 			</Step>
 			<!-- ... -->
 		</Stepper>
@@ -78,26 +91,26 @@
 
 	<div class="col-span-5 card card-hover p-4">
 		<p class="text-2xl p-4 font-semibold">Entering a race</p>
-		<Stepper class="p-4">
+		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
-				<svelte:fragment slot="header">Equipment</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Race Distances</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Enter</svelte:fragment>
-				(content)
+				Coming soon
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Train</svelte:fragment>
-				(content)
+				Coming soon
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Race</svelte:fragment>
-				(content)
+				Coming soon
 			</Step>
 			<Step on:complete={onCompleteHandler}>
 				<svelte:fragment slot="header">Race</svelte:fragment>
-				(content)
+				Coming soon
 			</Step>
 			<!-- ... -->
 		</Stepper>
@@ -105,26 +118,26 @@
 
 	<div class="col-span-5 card card-hover p-4">
 		<p class="text-2xl p-4 font-semibold">Training</p>
-		<Stepper class="p-4">
+		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
-				<svelte:fragment slot="header">Equipment</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Swim</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Enter</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Bike</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Train</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Run</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Race</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Other</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step on:complete={onCompleteHandler}>
-				<svelte:fragment slot="header">Race</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Watch This</svelte:fragment>
+				Coming soon
 			</Step>
 			<!-- ... -->
 		</Stepper>
@@ -132,26 +145,26 @@
 
 	<div class="col-span-5 card card-hover p-4">
 		<p class="text-2xl p-4 font-semibold">Racing</p>
-		<Stepper class="p-4">
+		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
-				<svelte:fragment slot="header">Equipment</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">I'm doing a triathlon!</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Enter</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Swim</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Train</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Bike</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Race</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Run</svelte:fragment>
+				Coming soon
 			</Step>
 			<Step on:complete={onCompleteHandler}>
-				<svelte:fragment slot="header">Race</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Celebrate</svelte:fragment>
+				Coming soon
 			</Step>
 			<!-- ... -->
 		</Stepper>
@@ -159,25 +172,25 @@
 
 	<div class="col-span-5 card card-hover p-4">
 		<p class="text-2xl p-4 font-semibold">What Next?</p>
-		<Stepper class="p-4">
+		<Stepper class="p-4" buttonCompleteLabel="TRIATHLETE - YES!">
+			<Step>
+				<svelte:fragment slot="header">Coaching</svelte:fragment>
+				(content)
+			</Step>
+			<Step>
+				<svelte:fragment slot="header">Assess Goals</svelte:fragment>
+				(content)
+			</Step>
+			<Step>
+				<svelte:fragment slot="header">Lifestyle</svelte:fragment>
+				(content)
+			</Step>
 			<Step>
 				<svelte:fragment slot="header">Equipment</svelte:fragment>
 				(content)
 			</Step>
-			<Step>
-				<svelte:fragment slot="header">Enter</svelte:fragment>
-				(content)
-			</Step>
-			<Step>
-				<svelte:fragment slot="header">Train</svelte:fragment>
-				(content)
-			</Step>
-			<Step>
-				<svelte:fragment slot="header">Race</svelte:fragment>
-				(content)
-			</Step>
 			<Step on:complete={onCompleteHandler}>
-				<svelte:fragment slot="header">Race</svelte:fragment>
+				<svelte:fragment slot="header">Community</svelte:fragment>
 				(content)
 			</Step>
 			<!-- ... -->
