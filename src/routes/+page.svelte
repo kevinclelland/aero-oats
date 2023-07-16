@@ -104,7 +104,7 @@
 						<article>
 							<!-- Posts -->
 							
-							<div class="h3">Recent News from Tri247 </div>
+							<div class="h3">Recent News from <a href="https://www.tri247.com/">Tri247</a> </div>
 							{#each data.newsitems as newsitem}
 										<div class="p-4">
 											<span class="flex justify-between"><h3 class="h3" data-toc-ignore>
