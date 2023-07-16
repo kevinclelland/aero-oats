@@ -6,11 +6,16 @@
 	$: movie = data.movies.find((movie) => movie.id === $page.params.id);
 </script>
 
+<a href="/athleteprofiles">
+	<div class="text-center italic">Click to go back to athlete profiles</div></a>
+
 {#if movie}
 	<article>
 		<div class="flex grid grid-cols-1 lg:grid-cols-3 max-w-7xl">
+			
 			<div class="poster p-4 col-span-1 lg:col-span-1">
 				<a href="/athleteprofiles">
+					
 					<img class="cover rounded-2xl w-auto" src={movie.poster_path} alt={movie.title} data-flip-id="cover-{movie.title}"/>
 				</a>
 			</div>

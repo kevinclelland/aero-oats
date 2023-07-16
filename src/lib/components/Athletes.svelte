@@ -1,6 +1,5 @@
 <script>
-	import { Avatar } from '@skeletonlabs/skeleton';
-
+	
 	const listData = [
 		{
 			avatar:
