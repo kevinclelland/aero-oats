@@ -1,5 +1,5 @@
 
-<h1 class="text-6xl p-4 text-center">💌 About and Contact</h1>
+<h1 class="text-6xl p-4 text-center">💌 About</h1>
 
 
 <div class="p-4 max-w-5xl mx-auto h5">
@@ -30,12 +30,12 @@
 <br>
 <p>Who am I? A late thirty something age-grouper from South Africa who has been doing the sport since 2003. I've gone from:</p>
     <ul class="list-disc p-4">
-        <li>Trying to swim 600m without stopping to rest</li>
-        <li>Dreams of making the Olympics</li>
-        <li>Dreams of doing an Ironman</li>
-        <li>Dreams of doing Kona</li>
-        <li>Hoping to get a personal best</li>
-        <li>Just trying to stay consistent amongst work and family</li>
+        <li>👍️ Trying to swim 600m without stopping to rest</li>
+        <li>📈 Dreams of making the Olympics</li>
+        <li>📈 Dreams of doing an Ironman</li>
+        <li>📈 Dreams of doing Kona</li>
+        <li>📉 Hoping to get a personal best</li>
+        <li>📉 Just trying to stay consistent amongst work and family</li>
 
     </ul> 
 
