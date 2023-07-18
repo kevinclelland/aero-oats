@@ -3,7 +3,7 @@
 	export let data;
 </script>
 
-<div class="text-center text-6xl p-4">Athlete Profiles</div>
+<div class="text-center text-6xl p-4">🏆️ Athletes</div>
 
 <main class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4 max-w-7xl mx-auto items-center">
 	

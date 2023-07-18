@@ -5,7 +5,7 @@
 	}
 </script>
 
-<h1 class="text-6xl p-4 text-center">Start Triathlon</h1>
+<h1 class="text-6xl p-4 text-center">🗺️ Start to Tri</h1>
 
 <div class="mx-auto max-w-4xl text-token grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-4 p-4">
 	<div class="col-span-5 card card-hover p-4">

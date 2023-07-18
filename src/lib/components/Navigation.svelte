@@ -7,7 +7,7 @@
 </script>
 
 
-<nav class="list-nav p-4">
+<nav class="list-nav p-2">
 	<ul>
 		<li><a href="/" on:click={drawerClose}><span class="items-center"><span class="text-3xl pr-1">🏡</span><span class="text-2xl">Homepage</span></span></a></li>
 		<li><a href="/start" on:click={drawerClose}><span class="items-center"><span class="text-3xl pr-1">🗺️</span><span class="text-2xl">Start to Tri</span></span></a></li>
@@ -21,7 +21,7 @@
 		<li><a href="/blog" on:click={drawerClose}>Blog</a></li>-->
 	</ul>
 </nav>
-<span class="flex items-center text-center justify-center pb-4">
+<span class="flex items-center text-center justify-center py-4">
 <a href="https://twitter.com/AeroOats" class="text-gray-500 hover:text-gray-900 dark:hover:text-white px-2">
 	
 				<span>	<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path

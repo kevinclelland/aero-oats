@@ -14,21 +14,20 @@
 
 <header class="w-full">
 	<nav class="flex flex-col md:flex-row gap-3 items-center justify-around py-5 px-4">
-		<div class="md:w-2/12 text-center md:text-left">
-			<p class="font-serif text-xl font-bold">By Aero Oats.</p>
-			<p class="font-serif text-sm">
-				Bi-weekly triathlon newsletter for you to chew through while you munch your morning oats.
-			</p>
+		<div class="flex md:w-2/12 w-full flex-col items-center justify-center border border-black text-xl font-bold">
+			<h1>COMMUNITY SUPPLIED</h1>
+			<h1>AND TESTED!</h1>
 		</div>
 		<div>
 			<h1 class="font-serif text-4xl font-bold text-center">THE RACE REPORT ALMANAC</h1>
 			<h1 class="text-center text-2xl">Global Distribution</h1>
 		</div>
-		<div
-			class="flex md:w-2/12 w-full flex-col items-center justify-center border border-black text-xl font-bold"
-		>
-			<h1>COMMUNITY SUPPLIED</h1>
-			<h1>AND TESTED!</h1>
+		
+		<div class="md:w-2/12 text-center md:text-left">
+			<p class="font-serif text-xl font-bold">By Aero Oats.</p>
+			<p class="font-serif text-sm hidden sm:block">
+				Bi-weekly triathlon newsletter for you to chew through while you munch your morning oats.
+			</p>
 		</div>
 	</nav>
 </header>
