@@ -31,7 +31,7 @@
 <dl class="list-dl">
 	{#each listData as v}
 		<div>
-			<span class="badge-icon p-4 variant-soft-secondary"><i class="fas fa-calendar-alt" /></span>
+			<span class="badge-icon p-2 variant-soft-secondary"><i class="fas fa-calendar-alt" /></span>
 			<a href="/{v.link}"
 				><span class="flex-auto">
 					<dt class="font-bold">{v.name}</dt>

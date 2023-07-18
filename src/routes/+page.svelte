@@ -141,7 +141,7 @@
 			<h6 class="h6 p-4">Some useful triathlon calculators.</h6>
 			<Tools />
 
-			<h3 class="p-4 h3">Athletes - The Big Dogs</h3>
+			<h3 class="p-4 h3">Athletes - Big Dogs 🐶</h3>
 			<hr />
 			<Athletes />
 
@@ -149,7 +149,7 @@
 			<hr />
 			<AthletesSA />
 
-			<h3 class="p-4 h3">Athletes - Our Favourites</h3>
+			<h3 class="p-4 h3">Athletes - Our Faves ❤️</h3>
 			<hr />
 			<AthletesRoot />
 

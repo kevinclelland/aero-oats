@@ -24,12 +24,26 @@
 	function drawerOpen(): void {
 		drawerStore.open();
 	}
+	function drawerClose(): void {
+		drawerStore.close();
+	}
 	export let data;
 </script>
 
 <Drawer class="max-w-md">
-	<h2 class="p-4">Menu</h2>
-	<hr />
+	
+		<a href="/" on:click={drawerClose}>
+			<div class="flex items-center justify-center mx-auto py-2">
+				<span class="bg-gradient-to-br from-ao-orange to-ao-pink bg-clip-text text-transparent box-decoration-clone">
+					<strong class="text-3xl uppercase px-2">aero</strong></span>
+				<img src="/images/aologosm.png" class="h-24" alt="Aero Oats Logo" />
+				<span class="bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone">
+					<strong class="text-3xl uppercase px-2">oats</strong></span>
+			</div>
+		</a>
+	
+		<hr />
+	
 	<Navigation />
 </Drawer>
 
