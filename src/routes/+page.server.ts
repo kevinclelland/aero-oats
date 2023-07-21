@@ -23,7 +23,9 @@ export async function load({ fetch }: any) {
       .then((response: { text: () => any; }) => response.text())
       .then((rawXml: string) => parseXml(rawXml).rss.channel.item);
 
-  return { newsletters, posts, newsitems };
+   
+
+  return { newsletters, posts, newsitems, };
   
 };
 

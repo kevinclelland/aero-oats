@@ -56,7 +56,8 @@
 					<!-- Tabs -->
 					<Tab bind:group={tabsBasic} name="books" value={0}>Newsletter</Tab>
 					<Tab bind:group={tabsBasic} name="movies" value={1}>Race Reports</Tab>
-					<Tab bind:group={tabsBasic} name="tv" value={2}>News</Tab>
+					<Tab bind:group={tabsBasic} name="tv" value={2}>TRI247 News</Tab>
+					
 					<!-- Panel -->
 					<svelte:fragment slot="panel">
 						{#if tabsBasic === 0}
@@ -70,7 +71,8 @@
 											{#each data.newsletters as newsletter}
 											<li>
 											  <a target="_blank" href={newsletter.link} rel="noreferrer">
-												{newsletter.title}
+												{newsletter.title} - 
+												{newsletter.description}
 											  </a>
 											</li>
 										  {/each}
@@ -120,6 +122,9 @@
 
 
 						</article>
+
+					
+
 						{/if}
 					</svelte:fragment>
 				</TabGroup>
