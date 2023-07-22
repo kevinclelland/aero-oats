@@ -28,19 +28,50 @@
 		drawerStore.close();
 	}
 	export let data;
+
+
+
+	import { onMount, onDestroy } from 'svelte';
+	import { fly } from 'svelte/transition';
+	
+	let greetings = ['Swim', 'Bike', 'Run', 'Oats'];
+	let index = 0;
+	let roller: number | undefined;
+	
+	onMount(() => {
+		roller = setInterval(() => {
+			if (index === greetings.length - 1) index = 0;
+			else index++;
+		}, 1500);
+	});
+	
+	onDestroy(() => {
+		clearInterval(roller);
+	});
+
+
+
+
 </script>
 
 <Drawer class="max-w-md">
 	
 		<a href="/" on:click={drawerClose}>
-			<div class="flex items-center justify-center mx-auto py-2">
-				<span class="bg-gradient-to-br from-ao-orange to-ao-pink bg-clip-text text-transparent box-decoration-clone">
+			<div class="flex items-center justify-start mx-auto pl-10">
+				<span transition:fly={{ y: 200, duration: 2000 }} class="bg-gradient-to-br from-ao-orange to-ao-pink bg-clip-text text-transparent box-decoration-clone">
 					<strong class="text-3xl uppercase px-2">aero</strong></span>
 				<img src="/images/aologosm.png" class="h-24" alt="Aero Oats Logo" />
+
+				{#key index}
 				<span class="bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone">
-					<strong class="text-3xl uppercase px-2">oats</strong></span>
+					<strong class="text-3xl uppercase px-2">{greetings[index]}</strong></span>
+				{/key}
 			</div>
 		</a>
+
+		
+	
+
 	
 		<hr />
 	
@@ -74,8 +105,9 @@
 						<strong class="text-3xl uppercase px-2">oats</strong></span>
 				</div>
 			</a>
-
+			
 			<svelte:fragment slot="trail">
+				
 				<LightSwitch />
 				
 			</svelte:fragment>

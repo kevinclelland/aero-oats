@@ -15,7 +15,11 @@ module.exports = {
 				'ao-orange': '#F2A516',
 				'ao-newpink': '#F263E9',
 				'ao-teal': '#11D9D9'
-			}
+			},
+
+			
+
+
 		}
 	},
 	plugins: [require('@tailwindcss/forms'), ...skeleton()]
