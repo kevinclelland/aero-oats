@@ -32,7 +32,7 @@
 
 
 	import { onMount, onDestroy } from 'svelte';
-	import { fly } from 'svelte/transition';
+	import { fly, slide } from 'svelte/transition';
 	
 	let greetings = ['Swim', 'Bike', 'Run', 'Oats'];
 	let index = 0;
