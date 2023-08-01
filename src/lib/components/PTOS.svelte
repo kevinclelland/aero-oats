@@ -15,9 +15,9 @@
 		</div>
 	</div>
 
-	<div class="flex grid grid-cols-1 md:grid-cols-3 gap-4 p-4 max-w-7xl mx-auto">
+	<div class="flex grid grid-cols-1 lg:grid-cols-3 gap-4 p-4 max-w-7xl mx-auto">
 		<div class="col-span-1 mx-auto">
-			<h2 class="text-2xl font-semibold text-center p-2">Pre Race Info</h2>
+			<h2 class="text-2xl font-semibold text-center p-2">Scenario 1</h2>
 
 			<label class="label flex justify-end items-center">
 				<span>Select Race Tier</span>
@@ -35,55 +35,53 @@
 				<input class="input variant-form-material text-lg mx-2 w-52" type="number" placeholder="Enter Race SOF" id="start1"/>
 			</label>
 
-			<p class="italic text-center p-2 max-w-sm">The SOF and Tier can be found on the PTO website <a href="https://protriathletes.org/" target="_blank">here. This single number is an average of the PTO points for the top 5 highest ranked athletes starting the race.</a></p>
-			<h2	class="text-2xl font-semibold text-center p-2">Results Info</h2>
 
 			<label class="label flex justify-end items-center">
 				<span>Finishers</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2" type="number" placeholder="Number of Finishers" id="numberfinishers"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2" type="number" placeholder="Number of Finishers" id="numberfinishers"/>
 			</label>
 			
 
 			<label class="label flex justify-end items-center">
 				<span>Winners Time</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher1"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher1"/>
 			</label>
 
 			<label class="label flex justify-end items-center">
 				<span>Second Place</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher2"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher2"/>
 			</label>
 
 			<label class="label flex justify-end items-center">
 				<span>Third Place</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher3"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher3"/>
 			</label>
 
 			<label class="label flex justify-end items-center">
 				<span>Fourth Place</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher4"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher4"/>
 			</label>
 
 			<label class="label flex justify-end items-center">
 				<span>Fifth Place</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher5"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher5"/>
 			</label>
 
 			<label class="label flex justify-end items-center">
 				<span>Your Time</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisheryou"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisheryou"/>
 			</label>
 
 			<label class="label flex justify-end items-center">
 				<span>Your Place:</span>
-				<input class="input variant-form-material text-lg p-2 w-56 mx-2" type="number" placeholder="6" id="finisherplace"/>
+				<input class="input variant-form-material text-lg p-2 w-52 mx-2" type="number" placeholder="6" id="finisherplace"/>
 			</label>
 		</div>
 
 		
 			
 			<div class="col-span-1 mx-auto">
-				<h2 class="text-2xl font-semibold text-center p-2">Pre Race Info</h2>
+				<h2 class="text-2xl font-semibold text-center p-2">Scenario 2</h2>
 	
 				<label class="label flex justify-end items-center">
 					<span>Select Race Tier</span>
@@ -101,53 +99,52 @@
 					<input class="input variant-form-material text-lg mx-2 w-52" type="number" placeholder="Enter Race SOF" id="start11"/>
 				</label>
 	
-				<p class="italic text-center p-2 max-w-sm">The SOF and Tier can be found on the PTO website <a href="https://protriathletes.org/" target="_blank">here. This single number is an average of the PTO points for the top 5 highest ranked athletes starting the race.</a></p>
-				<h2	class="text-2xl font-semibold text-center p-2">Results Info</h2>
+
 	
 				<label class="label flex justify-end items-center">
 					<span>Finishers</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2" type="number" placeholder="Number of Finishers" id="numberfinishers1"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2" type="number" placeholder="Number of Finishers" id="numberfinishers1"/>
 				</label>
 				
 	
 				<label class="label flex justify-end items-center">
 					<span>Winners Time</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher11"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher11"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Second Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher21"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher21"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Third Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher31"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher31"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Fourth Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher41"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher41"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Fifth Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher51"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher51"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Your Time</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisheryou1"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisheryou1"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Your Place:</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2" type="number" placeholder="6" id="finisherplace1"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2" type="number" placeholder="6" id="finisherplace1"/>
 				</label>
 			</div>
 
 			<div class="col-span-1 mx-auto">
-				<h2 class="text-2xl font-semibold text-center p-2">Pre Race Info</h2>
+				<h2 class="text-2xl font-semibold text-center p-2">Scenario 3</h2>
 	
 				<label class="label flex justify-end items-center">
 					<span>Select Race Tier</span>
@@ -165,48 +162,46 @@
 					<input class="input variant-form-material text-lg mx-2 w-52" type="number" placeholder="Enter Race SOF" id="start12"/>
 				</label>
 	
-				<p class="italic text-center p-2 max-w-sm">The SOF and Tier can be found on the PTO website <a href="https://protriathletes.org/" target="_blank">here. This single number is an average of the PTO points for the top 5 highest ranked athletes starting the race.</a></p>
-				<h2	class="text-2xl font-semibold text-center p-2">Results Info</h2>
 	
 				<label class="label flex justify-end items-center">
 					<span>Finishers</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2" type="number" placeholder="Number of Finishers" id="numberfinishers2"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2" type="number" placeholder="Number of Finishers" id="numberfinishers2"/>
 				</label>
 				
 	
 				<label class="label flex justify-end items-center">
 					<span>Winners Time</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher12"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher12"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Second Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher22"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher22"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Third Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher32"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher32"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Fourth Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher42"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher42"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Fifth Place</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisher52"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisher52"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Your Time</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2"	type="time"	step="1" id="finisheryou2"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2"	type="time"	step="1" id="finisheryou2"/>
 				</label>
 	
 				<label class="label flex justify-end items-center">
 					<span>Your Place:</span>
-					<input class="input variant-form-material text-lg p-2 w-56 mx-2" type="number" placeholder="6" id="finisherplace2"/>
+					<input class="input variant-form-material text-lg p-2 w-52 mx-2" type="number" placeholder="6" id="finisherplace2"/>
 				</label>
 			</div>
 
