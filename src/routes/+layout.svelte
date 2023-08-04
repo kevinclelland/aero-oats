@@ -60,7 +60,7 @@
 			<div class="flex items-center justify-start mx-auto pl-10">
 				<span transition:fly={{ y: 200, duration: 2000 }} class="bg-gradient-to-br from-ao-orange to-ao-pink bg-clip-text text-transparent box-decoration-clone">
 					<strong class="text-3xl uppercase px-2">aero</strong></span>
-				<img src="/images/aologosm.png" class="h-24" alt="Aero Oats Logo" />
+				<img src="/images/logo2sm.png" class="h-24" alt="Aero Oats Logo" />
 
 				{#key index}
 				<span class="bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone">
@@ -100,7 +100,7 @@
 				<div class="flex items-center justify-center mx-auto">
 					<span class="bg-gradient-to-br from-ao-orange to-ao-pink bg-clip-text text-transparent box-decoration-clone">
 						<strong class="text-3xl uppercase px-2">aero</strong></span>
-					<img src="/images/aologosm.png" class="h-24" alt="Aero Oats Logo" />
+					<img src="/images/logo2sm.png" class="h-24" alt="Aero Oats Logo" />
 					<span class="bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone">
 						<strong class="text-3xl uppercase px-2">oats</strong></span>
 				</div>

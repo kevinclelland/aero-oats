@@ -49,7 +49,7 @@
 		<!-- Main -->
 		<div class="col-span-3 card card-hover overflow-hidden">
 			<header>
-				<img src="/images/banner2.jpg" class="bg-black/50 w-full" alt="Post" />
+				<img src="/images/Banner3.jpg" class="bg-black/50 w-full" alt="Post" />
 			</header>
 			<div class="p-4 space-y-4">
 				<TabGroup>
