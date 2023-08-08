@@ -106,7 +106,7 @@
 
 				<div class="flex items-center justify-center mx-auto">
 
-					<img src="/images/logo4sm2.png" class="max-h-36 w-fit" alt="Aero Oats Logo" />
+					<img src="/images/logo4sm3.png" class="max-h-36 w-fit" alt="Aero Oats Logo" />
 					<!--
 					<img src="/images/blacklogosm.png" class="h-16 block dark:hidden" alt="Aero Oats Logo" />
 					<img src="/images/whitelogosm.png" class="h-16 hidden dark:block" alt="Aero Oats Logo" />
