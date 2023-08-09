@@ -88,7 +88,7 @@
 
 				<div class="flex items-center justify-center mx-auto">
 
-					<img src="/images/logo4sm3.png" class="max-h-36 w-fit" alt="Aero Oats Logo" />
+					<img src="/images/logo4sm31.png" class="max-h-36 w-fit" alt="Aero Oats Logo" />
 	
 				</div>
 			</a>
