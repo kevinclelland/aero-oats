@@ -21,7 +21,7 @@
 		<hr class="my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" />
 		<div class="sm:flex sm:items-center sm:justify-between">
 			<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-				>© 2023 <a href="https://aerooats.com/" class="hover:underline">Aero Oats™</a>. Photos by <a href="https://protriathletes.org/" class="hover:underline">PTO</a>. Icons by <a href="https://twemoji.twitter.com/">Twemoji.</a>
+				>© 2023 <a href="https://aerooats.com/" class="hover:underline">Aero Oats™</a>. Photos: <a href="https://protriathletes.org/" class="hover:underline">PTO</a>. Icons: <a href="https://twemoji.twitter.com/">Twemoji.</a>
 			</span>
 			<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 				<a

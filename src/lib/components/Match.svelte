@@ -99,8 +99,6 @@ $: time === 0 && gameLost()
 <svelte:window on:keydown={pauseGame} />
 
 
-
-<body>
  
 <div class="mx-auto text-center box-border">
 {#if state === 'start'}
@@ -123,7 +121,7 @@ $: time === 0 && gameLost()
     {/each}
 </div>
 
-<div class="flex grid grid-cols-4 sm:grid-cols-5 gap-2">
+<div class="grid grid-cols-4 sm:grid-cols-5 gap-2">
     {#each grid as card, cardIndex}
         {@const isSelected = selected.includes(cardIndex)}
         {@const isSelectedOrMatch =
@@ -144,6 +142,7 @@ $: time === 0 && gameLost()
     {/each}
 </div>
 {/if}
+</div>
 
 {#if state === 'lost'}
 <h1 class="p-4 text-6xl">You lost! 💩</h1>
@@ -155,9 +154,7 @@ $: time === 0 && gameLost()
 <button on:click={() => (state = 'playing')}>Play again</button>
 {/if}
 
-</div>
 
-</body>
 
 <style>
 
@@ -195,42 +192,43 @@ button {
 	border: none;
 	text-transform: uppercase;
 	cursor: pointer;
+    
 }
 
 
 .card {
-    height: 80px;
-    width: 80px;
-    font-size: 4rem;
-    background-color: var(--bg-2);
-    transition: rotate 0.3s ease-out;
-    transform-style: preserve-3d; 
-    
-}
+		height: 80px;
+		width: 80px;
+		
+		background-color: var(--bg-2);
+		transition: rotate 0.3s ease-out;
+		transform-style: preserve-3d;
+        
+	}
 
-.card.selected {
+.selected {
     border: 4px solid var(--border);
-    backface-visibility: visible;
+ 
 }
 
-.card.flip {
-    rotate: y 180deg;
-    pointer-events: none;
-    
+.flip {
+	rotate: y 180deg;
+	pointer-events: none;
+            
 }
 
-.card > .back {
-    position: absolute;
-    inset: 0;
-    display: grid;
-    place-content: center;
-    backface-visibility: hidden;
-    rotate: y 180deg;
+ .back {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-content: center;
+	backface-visibility: hidden;
+	rotate: y 180deg;
 }
 
-.card > .match {
-    transition: opacity 0.3s ease-out;
-    opacity: 0.4;
+.match {
+	transition: opacity 0.3s ease-out;
+	opacity: 0.4;
     backface-visibility: visible;
 }
 
@@ -238,7 +236,7 @@ button {
     display: flex;
     gap: 1rem;
     margin-block: 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .timer {
