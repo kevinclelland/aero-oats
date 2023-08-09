@@ -102,7 +102,7 @@ $: time === 0 && gameLost()
 
 <body>
  
-
+<div class="mx-auto">
 {#if state === 'start'}
 <h1 class="p-4">Matching game</h1>
 <button on:click={() => (state = 'playing')}>Play</button>
@@ -123,7 +123,7 @@ $: time === 0 && gameLost()
     {/each}
 </div>
 
-<div class="cards">
+<div class="flex grid grid-cols-2 sm:grid-cols-5 gap-2">
     {#each grid as card, cardIndex}
         {@const isSelected = selected.includes(cardIndex)}
         {@const isSelectedOrMatch =
@@ -131,7 +131,7 @@ $: time === 0 && gameLost()
         {@const match = matches.includes(card)}
 
         <button
-            class="card"
+            class="card bg-Slate-500"
             class:selected={isSelected}
             class:flip={isSelectedOrMatch}
             disabled={isSelectedOrMatch}
@@ -151,9 +151,12 @@ $: time === 0 && gameLost()
 {/if}
 
 {#if state === 'won'}
-<h1>You win! 🎉</h1>
+<h1 class="p-4">You win! 🎉</h1>
 <button on:click={() => (state = 'playing')}>Play again</button>
 {/if}
+
+</div>
+
 </body>
 
 <style>
@@ -170,8 +173,8 @@ $: time === 0 && gameLost()
 
 body {
     
-	color: var(--txt-1);
-	background-color: var(--bg-1);
+	/*color: var(--txt-1);
+	background-color: var(--bg-1);*/
 }
 
 h1 {
@@ -200,18 +203,11 @@ button {
 }
 
 
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0.4rem;
-}
-
 .card {
     height: 140px;
     width: 140px;
     font-size: 4rem;
-    background-color: var(--bg-2);
+    /*background-color: var(--bg-2);*/
     transition: rotate 0.3s ease-out;
     transform-style: preserve-3d;
 

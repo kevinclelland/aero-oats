@@ -2,13 +2,9 @@
 	const listData = [
 		{ avatar: 'YOErFW8AfkI', name: 'PTO Points', label: 'Calculate PTO points', link: 'pto' },
 		{ avatar: 'YOErFW8AfkI', name: 'PTO Points Scenarios', label: 'Calc points for 3 scenarios', link: 'ptos' },
-		{
-			avatar: 'z_X0PxmBuIQ',
-			name: 'Time Distance Pace',
-			label: 'Calculate running pace, distance or time',
-			link: 'tdp'
-		},
-		{ avatar: '8vKVlNIbAc4', name: 'Countdown', label: 'Days til next race', link: 'countdown' }
+		{ avatar: 'z_X0PxmBuIQ', name: 'Time Distance Pace', label: 'Calculate running pace, distance or time', link: 'tdp' },
+		{ avatar: '8vKVlNIbAc4', name: 'Countdown', label: 'Days til next race', link: 'countdown' },
+		{ avatar: '8vKVlNIbAc4', name: 'Match (beta)', label: 'Card matching game', link: 'match' }
 	];
 </script>
 
