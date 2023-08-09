@@ -104,16 +104,16 @@ $: time === 0 && gameLost()
  
 <div class="mx-auto">
 {#if state === 'start'}
-<h1 class="p-4">Matching game</h1>
+<h1 class="p-4 text-6xl">Matching game</h1>
 <button on:click={() => (state = 'playing')}>Play</button>
 {/if}
 
 {#if state === 'paused'}
-<h1 class="p-4">Game paused</h1>
+<h1 class="p-4 text-6xl">Game paused</h1>
 {/if}
 
 {#if state === 'playing'}
-<h1 class="timer p-4" class:pulse={time <= 10}>
+<h1 class="timer p-4 text-6xl" class:pulse={time <= 10}>
     {time}
 </h1>
 
@@ -146,12 +146,12 @@ $: time === 0 && gameLost()
 {/if}
 
 {#if state === 'lost'}
-<h1 class="p-4">You lost! 💩</h1>
+<h1 class="p-4 text-6xl">You lost! 💩</h1>
 <button on:click={() => (state = 'playing')}>Play again</button>
 {/if}
 
 {#if state === 'won'}
-<h1 class="p-4">You win! 🎉</h1>
+<h1 class="p-4 text-6xl">You win! 🎉</h1>
 <button on:click={() => (state = 'playing')}>Play again</button>
 {/if}
 
@@ -178,7 +178,7 @@ body {
 }
 
 h1 {
-	font-size: 4rem;
+	
 	text-align: center;
 	text-transform: capitalize;
 }
