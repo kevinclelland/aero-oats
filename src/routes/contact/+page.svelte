@@ -30,7 +30,7 @@
 <br>
 <p>Who am I? A late thirty something age-grouper from South Africa who has been doing the sport since 2003. I've gone from:</p>
     <ul class="list-disc p-4">
-        <li>👍️ Trying to swim 600m without stopping to rest</li>
+        <li>🏁 Trying to swim 600m without resting</li>
         <li>📈 Dreams of making the Olympics</li>
         <li>📈 Dreams of doing an Ironman</li>
         <li>📈 Dreams of doing Kona</li>
