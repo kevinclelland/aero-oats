@@ -1,5 +1,5 @@
 <script lang="ts">
-	export const emoji = ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "🥲", "🥹", "☺️", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🥸", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😮‍💨", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🫣", "🤗", "🫡", "🤔", "🫢", "🤭", "🤫", "🤥", "😶", "😶‍🌫️", "😐", "😑", "😬", "🫨", "🫠", "🙄", "😯", "😦", "😧", "😮", "😲", "🥱", "😴", "🤤", "😪", "😵", "😵‍💫", "🫥", "🤐", "🥴", "🤢", "🤮", "🤧", "😷", "🤒", "🤕", "🤑", "🤠", "😈", "👿", "👹", "👺", "🤡", "💩", "👻", "💀", "☠️", "👽", "👾", "🤖", "🎃", "😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾"]
+	const emoji = ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "🥲", "🥹", "☺️", "😊", "😇", "🙂", "🙃", "😉", "😌", "😍", "🥰", "😘", "😗", "😙", "😚", "😋", "😛", "😝", "😜", "🤪", "🤨", "🧐", "🤓", "😎", "🥸", "🤩", "🥳", "😏", "😒", "😞", "😔", "😟", "😕", "🙁", "☹️", "😣", "😖", "😫", "😩", "🥺", "😢", "😭", "😮‍💨", "😤", "😠", "😡", "🤬", "🤯", "😳", "🥵", "🥶", "😱", "😨", "😰", "😥", "😓", "🫣", "🤗", "🫡", "🤔", "🫢", "🤭", "🤫", "🤥", "😶", "😶‍🌫️", "😐", "😑", "😬", "🫨", "🫠", "🙄", "😯", "😦", "😧", "😮", "😲", "🥱", "😴", "🤤", "😪", "😵", "😵‍💫", "🫥", "🤐", "🥴", "🤢", "🤮", "🤧", "😷", "🤒", "🤕", "🤑", "🤠", "😈", "👿", "👹", "👺", "🤡", "💩", "👻", "💀", "☠️", "👽", "👾", "🤖", "🎃", "😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾"]
     type State = 'start' | 'playing' | 'paused' | 'won' | 'lost'
 
 let state: State = 'start'
@@ -102,7 +102,7 @@ $: time === 0 && gameLost()
 
 <body>
  
-<div class="mx-auto text-center">
+<div class="mx-auto text-center box-border">
 {#if state === 'start'}
 <h1 class="p-4 text-6xl">Matching game</h1>
 <button on:click={() => (state = 'playing')}>Play</button>
@@ -123,7 +123,7 @@ $: time === 0 && gameLost()
     {/each}
 </div>
 
-<div class="flex grid grid-cols-2 sm:grid-cols-5 gap-2">
+<div class="flex grid grid-cols-4 sm:grid-cols-5 gap-2">
     {#each grid as card, cardIndex}
         {@const isSelected = selected.includes(cardIndex)}
         {@const isSelectedOrMatch =
@@ -131,7 +131,7 @@ $: time === 0 && gameLost()
         {@const match = matches.includes(card)}
 
         <button
-            class="card bg-Slate-500"
+            class="card"
             class:selected={isSelected}
             class:flip={isSelectedOrMatch}
             disabled={isSelectedOrMatch}
@@ -171,11 +171,6 @@ $: time === 0 && gameLost()
 }
 
 
-body {
-    
-	/*color: var(--txt-1);
-	background-color: var(--bg-1);*/
-}
 
 h1 {
 	
@@ -204,35 +199,39 @@ button {
 
 
 .card {
-    height: 140px;
-    width: 140px;
+    height: 80px;
+    width: 80px;
     font-size: 4rem;
     background-color: var(--bg-2);
     transition: rotate 0.3s ease-out;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d; 
+    
+}
 
-    &.selected {
-        border: 4px solid var(--border);
-    }
+.card.selected {
+    border: 4px solid var(--border);
+    backface-visibility: visible;
+}
 
-    &.flip {
-        rotate: y 180deg;
-        pointer-events: none;
-    }
+.card.flip {
+    rotate: y 180deg;
+    pointer-events: none;
+    
+}
 
-    & .back {
-        position: absolute;
-        inset: 0;
-        display: grid;
-        place-content: center;
-        backface-visibility: hidden;
-        rotate: y 180deg;
-    }
+.card > .back {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    backface-visibility: hidden;
+    rotate: y 180deg;
+}
 
-    & .match {
-        transition: opacity 0.3s ease-out;
-        opacity: 0.4;
-    }
+.card > .match {
+    transition: opacity 0.3s ease-out;
+    opacity: 0.4;
+    backface-visibility: visible;
 }
 
 .matches {
