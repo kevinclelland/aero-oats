@@ -135,7 +135,7 @@ $: time === 0 && gameLost()
             disabled={isSelectedOrMatch}
             on:click={() => selectCard(cardIndex)}
         >
-            <div class="back" class:match>
+            <div class="back" class:match class:selected={isSelected}>
                 {card}
             </div>
         </button>
@@ -183,7 +183,7 @@ h1 + button {
 }
 
 button {
-	padding: 1.5rem;
+	padding: 5px;
 	font-size: 2rem;
 	font-weight: 900;
 	color: inherit;
@@ -206,15 +206,10 @@ button {
         
 	}
 
-.selected {
-    border: 4px solid var(--border);
- 
-}
 
 .flip {
 	rotate: y 180deg;
 	pointer-events: none;
-            
 }
 
  .back {
@@ -222,21 +217,27 @@ button {
 	inset: 0;
 	display: grid;
 	place-content: center;
-	backface-visibility: hidden;
+	visibility: hidden;
+    
 	rotate: y 180deg;
+}
+
+.selected {
+    border: 2px solid var(--border);
+    visibility: visible;
 }
 
 .match {
 	transition: opacity 0.3s ease-out;
 	opacity: 0.4;
-    backface-visibility: visible;
+    visibility: visible;
 }
 
 .matches {
     display: flex;
-    gap: 1rem;
-    margin-block: 2rem;
-    font-size: 2rem;
+    gap: 2px;
+    margin-block: 5px;
+    font-size: 1.5rem;
 }
 
 .timer {
