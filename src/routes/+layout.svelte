@@ -32,7 +32,6 @@
 
 
 	import { onMount, onDestroy } from 'svelte';
-	import { fly, slide } from 'svelte/transition';
 	
 	let greetings = ['Swim', 'Bike', 'Run', 'Oats'];
 	let index = 0;
@@ -61,23 +60,6 @@
 		<img src="/images/Banner4.jpg" class="bg-black/50 w-full" alt="Post" />
 	</header>
 </a>
-	<!--
-		<a href="/" on:click={drawerClose}>
-			<div class="flex items-center justify-start mx-auto pl-10 my-2">
-				<span transition:fly={{ y: 200, duration: 2000 }} class="bg-gradient-to-br from-ao-orange to-ao-pink bg-clip-text text-transparent box-decoration-clone">
-					<strong class="text-3xl uppercase px-2">aero</strong></span>
-				<img src="/images/logo3sm.png" class="h-24" alt="Aero Oats Logo" />
-
-				{#key index}
-				<span class="bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone">
-					<strong class="text-3xl uppercase px-2">{greetings[index]}</strong></span>
-				{/key}
-			</div>
-		</a>
-	-->
-		
-	
-
 	
 		<hr />
 	
@@ -107,16 +89,7 @@
 				<div class="flex items-center justify-center mx-auto">
 
 					<img src="/images/logo4sm3.png" class="max-h-36 w-fit" alt="Aero Oats Logo" />
-					<!--
-					<img src="/images/blacklogosm.png" class="h-16 block dark:hidden" alt="Aero Oats Logo" />
-					<img src="/images/whitelogosm.png" class="h-16 hidden dark:block" alt="Aero Oats Logo" />
-					
-					<span class="bg-gradient-to-br from-ao-orange to-ao-pink bg-clip-text text-transparent box-decoration-clone">
-						<strong class="text-3xl uppercase px-2">aero</strong></span>
-					<img src="/images/logo3sm.png" class="h-24" alt="Aero Oats Logo" />
-					<span class="bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone">
-						<strong class="text-3xl uppercase px-2">oats</strong></span>
-						-->
+	
 				</div>
 			</a>
 			

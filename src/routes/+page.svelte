@@ -107,27 +107,6 @@
 						<article>
 							<!-- Posts -->
 							
-							<div class="h3">Recent News from <a href="https://protriathletes.org/">The PTO</a> </div>
-							{#each data.ptoitems as ptoitem}
-										<div class="p-4">
-											<span class="flex justify-between"><h3 class="h3" data-toc-ignore>
-													<a href={ptoitem.link} class="title" target="_blank">{ptoitem.title}</a>
-												</h3>
-												</span>
-											<p class="date">{formatDate(ptoitem.pubDate)}</p>
-											
-											<br />
-											<hr class="opacity-90" />
-										</div>
-									{/each}
-
-
-						</article>
-
-						{:else if tabsBasic === 3}
-						<article>
-							<!-- Posts -->
-							
 							<div class="h3">Recent News from <a href="https://www.tri247.com/">Tri247</a> </div>
 							{#each data.newsitems as newsitem}
 										<div class="p-4">
@@ -145,6 +124,30 @@
 
 						</article>
 
+
+			
+
+						{:else if tabsBasic === 3}
+	
+						<article>
+							<!-- Posts -->
+							
+							<div class="h3">Recent News from <a href="https://protriathletes.org/">The PTO</a> </div>
+							{#each data.ptoitems as ptoitem}
+										<div class="p-4">
+											<span class="flex justify-between"><h3 class="h3" data-toc-ignore>
+													<a href={ptoitem.link} class="title" target="_blank">{ptoitem.title}</a>
+												</h3>
+												</span>
+											<p class="date">{formatDate(ptoitem.pubDate)}</p>
+											
+											<br />
+											<hr class="opacity-90" />
+										</div>
+									{/each}
+
+
+						</article>
 					
 
 						{/if}
