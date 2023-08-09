@@ -102,7 +102,7 @@ $: time === 0 && gameLost()
 
 <body>
  
-<div class="mx-auto">
+<div class="mx-auto text-center">
 {#if state === 'start'}
 <h1 class="p-4 text-6xl">Matching game</h1>
 <button on:click={() => (state = 'playing')}>Play</button>
@@ -207,7 +207,7 @@ button {
     height: 140px;
     width: 140px;
     font-size: 4rem;
-    /*background-color: var(--bg-2);*/
+    background-color: var(--bg-2);
     transition: rotate 0.3s ease-out;
     transform-style: preserve-3d;
 
