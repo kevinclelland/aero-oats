@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Match from '$lib/components/Match.svelte';
+	import TriMatch from '$lib/components/TriMatch.svelte';
 </script>
 
 <div class="grid place-content-center p-4">
 
-<Match />
+<TriMatch />
 
 </div>

@@ -1,29 +1,29 @@
 <footer class="bg-surface-100-800-token">
-	<div class="mx-auto w-full max-w-screen-xl p-4 py-4 lg:py-6">
+	<div class="mx-auto w-full max-w-screen-xl p-2 py-2 lg:py-4">
 		<div class="md:flex md:justify-between">
-			<div class="mb-4 md:mb-0">
+			<div class="mb-2 md:mb-0">
 				<a href="https://aerooats.com/" class="flex items-center">
-					<img src="/images/logo.png" class="h-8 mr-3" alt="Aero Oats Logo" />
+					<img src="/images/logo.png" class="h-8 mr-2" alt="Aero Oats Logo" />
 					<span
 						class="bg-gradient-to-br from-red-500 to-orange-300 bg-clip-text text-transparent box-decoration-clone"
 					/>
 					<span
-						class="uppercase self-center text-2xl font-semibold whitespace-nowrap bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone"
+						class="uppercase self-center text-xl font-semibold whitespace-nowrap bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone"
 						>Aero Oats</span
 					>
 					<p class="px-2">by</p>
-					<a href="https://kevinclelland.com/" class="bg-sky-600 px-3 py-1 rounded-full"
+					<a href="https://kevinclelland.com/" class="bg-sky-600 px-3 py-1 rounded-full text-sm"
 						>@kevinclelland</a
 					>
 				</a>
 			</div>
 		</div>
-		<hr class="my-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" />
-		<div class="sm:flex sm:items-center sm:justify-between">
+		<hr class="my-2 border-gray-200 sm:mx-auto dark:border-gray-700" />
+		<div class="flex items-center justify-between">
 			<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-				>© 2023 <a href="https://aerooats.com/" class="hover:underline">Aero Oats™</a>. Photos: <a href="https://protriathletes.org/" class="hover:underline">PTO</a>. Icons: <a href="https://twemoji.twitter.com/">Twemoji.</a>
+				>Photos: <a href="https://protriathletes.org/" class="hover:underline">PTO</a>. Icons: <a href="https://twemoji.twitter.com/">Twemoji.</a>
 			</span>
-			<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+			<div class="flex mt-4 space-x-6 justify-center mt-0">
 				<a
 					href="https://www.instagram.com/aerooatstri/"
 					class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
