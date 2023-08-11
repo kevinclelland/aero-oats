@@ -30,7 +30,7 @@
 </svelte:head>
 
 <div>
-	<div class="mx-auto max-w-7xl xl:max-w-screen-2xl text-token grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-4">
+	<div class="mx-auto max-w-7xl xl:max-w-screen-2xl text-token grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-4">
 
 		<div class="hidden xl:block col-span-1 overflow-hidden">
 			<div class="card card-hover mb-4">

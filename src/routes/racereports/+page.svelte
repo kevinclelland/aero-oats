@@ -3,6 +3,9 @@
 	import { Avatar } from '@skeletonlabs/skeleton';
 	
 	export let data;
+
+	
+
 </script>
 
 <svelte:head>
@@ -46,6 +49,10 @@
 		<p class="px-2">Races: 1</p>
 	</div>
 </section>
+
+
+<!--MAP-->
+
 
 
 <!-- Post -->
