@@ -165,7 +165,7 @@
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Run</svelte:fragment>
-				<p class="px-4">In my mind the biggest goal with run training is to not get injured. I would rather you train very conservatively here than go crazy and have to take a few weeks off due to injury. Here are some example workouts:</p>
+				<p class="px-4">In my mind the biggest goal with run training is to not get injured. I would rather you train very conservatively here than go crazy and have to take a few weeks off due to injury. Personally I found doing my long runs offroad helps. Here are some example workouts:</p>
 				<ul class="list-disc px-4">
 					<li><div class="font-bold">Short: 10min warm up, 10min fartlek not going faster than 90%, 10min warm down.</div></li>
 					<li><div class="font-bold">Endurance: 30min easy running.</div></li>
@@ -187,23 +187,26 @@
 		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
 				<svelte:fragment slot="header">I'm doing a triathlon!</svelte:fragment>
-				Coming soon
+				<p class="px-4">It's SO important to realize this while you're doing it. It's such an EPIC achievement and you should be proud of yourself. You're doing something that most people will never do. You're a triathlete! Don't wait till after the race or the next race. Be present!</p>
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Swim</svelte:fragment>
-				Coming soon
+				<p class="px-4">For a lot of triathletes the swim is about mitigating damage and getting through it without drama and losing too much time. Start to one of the sides - preferably so that your breathing side will face the other athletes so you can orientate yourself against them each time you breath.</p>
+				<p class="px-4">Don't go out too fast and remember you can always stop and do breaststroke to get your bearings or catch your breath. My first triathlon was about 50% breaststroke and 50% backstroke.</p>
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Bike</svelte:fragment>
-				Coming soon
+				<p class="px-4">Take your time and settle in. Make sure you are comfortable and the bike is typically when you will be able to eat and drink the most.</p>
+				<p class="px-4">Don't feel you need to catch the whole field and push as hard as you can only to blow up after the first 10km and suffer for the rest. Start conservatively and ease in to a pace you feel you can sustain. You can "let slip the dogs of war" over the last 5km if you're really feeling fresh.</p>
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Run</svelte:fragment>
-				Coming soon
+				<p class="px-4">You're either going to get off the bike absolutely shattered and wonder how you're going to run, or, you're going to get off and the adrenaline will kick in and you will shoot out onto the run feeling like a superhero. Either scenario isn't an indicator of how your run can go. A triathlon run is hard. Most times you will feel the proverbial bear jump on your back and you will have to carry they heavy furry grizzly for many kilometers until it jumps off with 1km to go.</p>
+				<p class="px-4">Stick to your training paces and, like the bike, if you're feeling great with a few kilometers left to run then you can go for it!</p>
 			</Step>
 			<Step on:complete={onCompleteHandler}>
 				<svelte:fragment slot="header">Celebrate</svelte:fragment>
-				Coming soon
+				<p class="px-4">Cross that finish line and congratulate yourself. You have done it and are in a very privilidged position to be able to even attempt a triathlon! Thank those that have supported your journey and give a shoutout to the race organizers and volunteers that are so often taken for granted.</p>
 			</Step>
 			<!-- ... -->
 		</Stepper>
