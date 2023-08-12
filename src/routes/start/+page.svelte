@@ -50,7 +50,7 @@
 
 
 	<div class="col-span-5 card card-hover p-4">
-		<p class="text-2xl p-4 font-semibold">Equipment</p>
+		<p class="text-2xl p-4 font-semibold">Equipment 🛠️</p>
 		<p class="px-4">You do need "invest" in some kit, but it's not nearly as much as people think. Often many of these items are relatively easy to borrow for your first race.</p>
 		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			
@@ -96,7 +96,7 @@
 	</div>
 
 	<div class="col-span-5 card card-hover p-4">
-		<p class="text-2xl p-4 font-semibold">Entering a race</p>
+		<p class="text-2xl p-4 font-semibold">Entering a race 🖥️</p>
 		<p class="px-4">Check your local race calendar and make the committment.</p>
 		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
@@ -127,7 +127,7 @@
 	</div>
 
 	<div class="col-span-5 card card-hover p-4">
-		<p class="text-2xl p-4 font-semibold">Training</p>
+		<p class="text-2xl p-4 font-semibold">Training 💧</p>
 		<p class="px-4">Here are some very high-level and generic suggestions on what to do if you don't have coaching. This is caveated by making sure you are physically healthy enough to start exercise and will be allowed to train with a doctor.</p>
 		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
@@ -183,7 +183,7 @@
 	</div>
 
 	<div class="col-span-5 card card-hover p-4">
-		<p class="text-2xl p-4 font-semibold">Racing</p>
+		<p class="text-2xl p-4 font-semibold">Racing 🏁</p>
 		<Stepper class="p-4" buttonCompleteLabel="👇Next Section">
 			<Step>
 				<svelte:fragment slot="header">I'm doing a triathlon!</svelte:fragment>
@@ -210,7 +210,7 @@
 	</div>
 
 	<div class="col-span-5 card card-hover p-4">
-		<p class="text-2xl p-4 font-semibold">What Next?</p>
+		<p class="text-2xl p-4 font-semibold">What Next? 🚀</p>
 		<Stepper class="p-4" buttonCompleteLabel="TRIATHLETE - YES!">
 			<Step>
 				<svelte:fragment slot="header">Coaching</svelte:fragment>
