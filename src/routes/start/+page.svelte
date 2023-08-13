@@ -216,25 +216,45 @@
 		<p class="text-2xl p-4 font-semibold">What Next? 🚀</p>
 		<Stepper class="p-4" buttonCompleteLabel="TRIATHLETE - YES!">
 			<Step>
-				<svelte:fragment slot="header">Coaching</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Assess Goals</svelte:fragment>
+				<p class="px-4">There are so many different ways to be a triathlete and it will become important for you to work out what you want from the sport. Below are some stereotypes just for fun and I think i've been in each category depending on the year.</p>
+				<ul class="list-disc px-4">
+					<li><div class="font-bold">Terminator 🤖</div>Many triathletes get hooked and want to toss aside any semblance of a normal life for swim, bike and run. This all consuming appraoch is great as you will "level-up" very quickly but it can be unsustainable. It can put a lot of strain on your family life, existing friendships and hobbies and even career. It can work, but not all the time.</li>
+					<li><div class="font-bold">Bumble Bee 🐝</div>This is similar to the above but less serious. This triathlete will fully embrace being a tri-geek and will train every day but not sacrifice every other part of their life. They will tend to race often because it's fun and put less pressure on themselves.</li>
+					<li><div class="font-bold">Hamster 🐹</div>Some triathlets have done a race or two but can seldom do another one. They enjoy training and the balance it brings to their lives but don't feel the need to race and compete.</li>
+					<li><div class="font-bold">Sportsman ⚽️</div>They are not defined as a triathlete and triathlon is just one of the many sports they do. They tend to always be fit, seldom injured and frustratingly can do well at a triathlon even on cheap equipment with little specific training.</li>
+					<li><div class="font-bold">Bear 🐻</div>There are many triathletes that used to be all in but have tapped out of the "matrix". They still love the sport and follow the pro-racing scene but are focusing on other areas or have taken up gravel riding or stand up paddle boarding. They will often have a comeback year where they go all-in again 😉</li>
+					
+				</ul>
 			</Step>
 			<Step>
-				<svelte:fragment slot="header">Assess Goals</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Coaching</svelte:fragment>
+				<p class="px-4">Whatever your goals are for the sport, a coach will be the quickest, most effective and often healthiest way to get there.</p>
+				<p class="px-4">Triathletes are often very "A-Type" so, surprisingly, a good coach will often provide a better balanced lifestyle and make sure an athlete isn't doing too much. I had a few Terminator years where I had a full-time coach and I learnt so much about how to train. Running was my strength but my ability to swim and bike have permanently jumped up a few levels regardless of my fitness these days.</p>
+				<p class="px-4">A local coach who you can meet up with or train with is first prize but there are also many online options.</p>
 			</Step>
 			<Step>
 				<svelte:fragment slot="header">Lifestyle</svelte:fragment>
-				(content)
-			</Step>
-			<Step>
-				<svelte:fragment slot="header">Equipment</svelte:fragment>
-				(content)
+				<p class="px-4">Now that you're a triathlete, I find that "investing" in the sport and embracing that you're a tri-geek can help you enjoy it...make triathlon a lifestyle!</p>
+				<p class="px-4">Follow the pro triathletes, read articles, listen to podcasts, watch Youtube vidoes...subscribe to the Aero Oats newsletter 😉</p>
+				<p class="px-4">It's important to still find balance in other areas but you're more likely to stick with the sport of you become somewhat of a student of it. Have a look at the "Resources" section in the menu for some things to look at.</p>
 			</Step>
 			<Step on:complete={onCompleteHandler}>
-				<svelte:fragment slot="header">Community</svelte:fragment>
-				(content)
+				<svelte:fragment slot="header">Equipment</svelte:fragment>
+				<p class="px-4">Apart from investing your time, there are some key equipment upgrades that you may find will help you be faster, more comfortable and enjoy the sport even more. My shiny bike sitting at the garage staring at me is a key motivation to get out and use it!</p>
+				<ul class="list-disc px-4">
+					<li><div class="font-bold">Wetsuit</div>A wetsuit will make you quicker on race day, give you more confidence, keep you warm and allow you to swim outdoors when it starts to get chilly. Most expensive isn't always better as the top of the range wetsuits often provide less buoyancy.</li>
+					<li><div class="font-bold">Aero Bars</div>These clip onto the handlebars of a road bike and allow you to hold a more aerodynamic position while riding. Pay special attention to the bike fit as your position may change significantly.</li>
+					<li><div class="font-bold">Saddle</div>It's always going to take a lot of time riding to get truly comfortable on a bike, but, sometimes the saddle that came with your bike just doesn't work for you. Many athletes find that a saddle with a center cut-out and relieve pressure and be infinitely more enjoyable.</li>
+					<li><div class="font-bold">Bike shoes</div>Specific bike shoes will have a very stiff sole and have cleats on the bottom that will clip into your pedals. They will allow you to pedal more efficiently avoiding wasted power.</li>
+					<li><div class="font-bold">Bike Fit</div>Even if you don't add aero bars, a new saddle or bike shoes, it's always a good idea to get a professional bike fit. Often it can be faster AND more comfortable.</li>
+					<li><div class="font-bold">Aero Helmet</div>The full on tt helmets can be a bit hectic and can be more hassle than good. A happy compromise is an Aero Road helmet which has many aero benefits but can have similar ventilation and comfort of a normal road helmet.</li>
+					<li><div class="font-bold">Wheels</div>Three benefits here. 1: More aerodynamic and faster, 2: Lighter and faster, 3: Look Amazing and you'll look faster 😎</li>
+					<li><div class="font-bold">Indoor Trainer</div>Getting an indoor trainer can allow you to get your cycle in regardless of the weather and in areas where it's unsafe to ride. It's much easier to do structured workouts on an indoor trainer too. Just make sure you still get out onto the road and learn to ride the bike.</li>
+					<li><div class="font-bold">Race shoes</div>These don't have to be super carbon shoes but just a more race orientated pair with elastic laces will make you feel race ready, get through T2 quicker and hopefully improve your run time too.</li>
+				</ul>
 			</Step>
+			
 			<!-- ... -->
 		</Stepper>
 	</div>
