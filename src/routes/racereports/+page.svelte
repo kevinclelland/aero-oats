@@ -3,7 +3,6 @@
 	import { Avatar } from '@skeletonlabs/skeleton';
 	
 	export let data;
-
 	
 
 </script>
@@ -52,6 +51,8 @@
 
 
 <!--MAP-->
+
+
 
 
 

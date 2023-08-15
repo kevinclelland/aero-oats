@@ -6,6 +6,8 @@
 	$: movie = data.movies.find((movie) => movie.id === $page.params.id);
 </script>
 
+
+<!--
 <a href="/athleteprofiles">
 	<div class="text-center italic">Click to go back to athlete profiles</div></a>
 
@@ -29,15 +31,15 @@
 	</article>
 
 	<div class="backdrop" style:--bg-image="url({movie.backdrop_path})" />
-{/if}
+{/if}-->
 
 <style>
-	article {
+	/*article {
 		display: flex;
 		gap: 2rem;
 	}
 
-	/*
+	
 	.poster {
 		min-width: 300px;
 		min-height: 450px;
@@ -50,7 +52,7 @@
 		display: block;
 		border-radius: 8px;
 		box-shadow: 1px 1px 10px hsl(0 0% 0% / 40%);
-	}*/
+	}
 
 	.details {
 		padding-block: 4rem;
@@ -71,5 +73,11 @@
 		background-size: cover;
 		opacity: 0.04;
 		z-index: -10;
-	}
+	}*/
+
+
+
+
+
+	
 </style>
