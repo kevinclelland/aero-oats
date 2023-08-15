@@ -1,6 +1,16 @@
 <script>
 	const listData = [
 		{
+			link: 'https://protriathletes.org/events/pto-tour/european-open/pro/',
+			name: 'PTO European Open',
+			label: '6 May - Ibiza, Spain'
+		},
+		{
+			link: 'https://www.challenge-roth.com/en/',
+			name: 'Challenge Roth',
+			label: '25 June - Roth, Germany'
+		},
+		{
 			link: 'https://protriathletes.org/events/pto-tour/us-open/pro/',
 			name: 'PTO US Open',
 			label: '5 August - Milwaukee, USA'

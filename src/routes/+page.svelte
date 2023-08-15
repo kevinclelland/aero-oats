@@ -39,7 +39,7 @@
 			<Navigation />
 		</div>
 		<div class="card card-hover">
-			<h3 class="p-4 h3">Upcoming Races</h3>
+			<h3 class="p-4 h3">Big Races</h3>
 			<hr />
 			<Upcoming />
 		</div>
@@ -161,7 +161,7 @@
 			<h3 class="p-4 h3">Subscribe</h3>
 			<hr />
 			<h6 class="h6 p-4">
-				Essential pro-racing updates, interesting triathlon news, data insights - delivered weekly.
+				Essential pro-racing updates, curated triathlon news and data insights - delivered weekly.
 			</h6>
 			<div class="flex justify-center"><Subscribe /></div>
 
@@ -183,7 +183,7 @@
 			<AthletesRoot />
 
 			<div class="xl:hidden">
-			<h3 class="p-4 h3">Upcoming Races</h3>
+			<h3 class="p-4 h3">Big Races</h3>
 			<hr />
 			<Upcoming />
 			</div>
