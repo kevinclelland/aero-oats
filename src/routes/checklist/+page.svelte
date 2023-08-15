@@ -32,7 +32,7 @@ $: props = {
 </div>
 
 <div class="p-4 max-w-sm mx-auto">
-    <p class="p-2 text-center">Click on each item to select</p>
+    <p class="p-2 text-center">Click on each item to tick it off</p>
 <ListBox multiple>
 	<ListBoxItem bind:group={valueMultiple} name="medium" value="trisuit" class="border-2 border-current" on:click={myFunction}>Trisuit</ListBoxItem>
 	<ListBoxItem bind:group={valueMultiple} name="medium" value="wetsuit" class="border-2 border-current" on:click={myFunction}>Wetsuit</ListBoxItem>
