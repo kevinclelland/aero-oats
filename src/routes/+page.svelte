@@ -158,17 +158,16 @@
 
 		<!-- Right Bar -->
 		<div class="col-span-2 card card-hover overflow-hidden">
-			<h3 class="p-4 h3">Newsletter</h3>
+			<h3 class="p-4 h3">Subscribe</h3>
 			<hr />
 			<h6 class="h6 p-4">
-				Bi-weekly bullet point triathlon newsletter for you to chew through while you munch your
-				morning oats.
+				Essential pro-racing updates, interesting triathlon news, data insights - delivered weekly.
 			</h6>
 			<div class="flex justify-center"><Subscribe /></div>
 
 			<h3 class="p-4 h3">Tools</h3>
 			<hr />
-			<h6 class="h6 p-4">Some useful triathlon calculators.</h6>
+			
 			<Tools />
 
 			<h3 class="p-4 h3">Athletes - Big Dogs 🐶</h3>
