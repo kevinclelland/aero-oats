@@ -7,7 +7,7 @@
 </script>
 
 
-<!--
+
 <a href="/athleteprofiles">
 	<div class="text-center italic">Click to go back to athlete profiles</div></a>
 
@@ -31,7 +31,7 @@
 	</article>
 
 	<div class="backdrop" style:--bg-image="url({movie.backdrop_path})" />
-{/if}-->
+{/if}
 
 <style>
 	/*article {
@@ -52,7 +52,7 @@
 		display: block;
 		border-radius: 8px;
 		box-shadow: 1px 1px 10px hsl(0 0% 0% / 40%);
-	}
+	}*/
 
 	.details {
 		padding-block: 4rem;
@@ -73,7 +73,7 @@
 		background-size: cover;
 		opacity: 0.04;
 		z-index: -10;
-	}*/
+	}
 
 
 
