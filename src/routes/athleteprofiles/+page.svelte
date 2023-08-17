@@ -14,13 +14,11 @@
 					<Avatar
 						src={movie.avatar}
 						width="w-36"
-						class="flex-none"
-						data-flip-id="cover-{movie.title}"
-					/>
+						class="flex-none"/>
 				</div>
 			</a>
 
-			<p class="title p-2 text-center" data-flip-id="title-{movie.title}">
+			<p class="title p-2 text-center">
 				{movie.title}
 			</p>
 		</article>

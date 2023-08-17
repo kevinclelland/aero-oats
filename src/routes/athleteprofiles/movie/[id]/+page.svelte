@@ -18,12 +18,12 @@
 			<div class="poster p-4 col-span-1 lg:col-span-1">
 				<a href="/athleteprofiles">
 					
-					<img class="cover rounded-2xl w-auto" src={movie.poster_path} alt={movie.title} data-flip-id="cover-{movie.title}"/>
+					<img class="cover rounded-2xl w-auto" src={movie.poster_path} alt={movie.title} />
 				</a>
 			</div>
 
 			<div class="details col-span-1 lg:col-span-2 p-4">
-				<h1 class="title text-7xl" data-flip-id="title-{movie.title}">{movie.title}</h1>
+				<h1 class="title text-7xl">{movie.title}</h1>
 				<p class="overview py-4">{movie.overview}</p>
 				<iframe class="w-full aspect-video p-4" src={movie.youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
 			</div>
