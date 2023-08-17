@@ -13,6 +13,7 @@
 		Drawer,
 		drawerStore
 	} from '@skeletonlabs/skeleton';
+	import type { DrawerSettings } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import PageTransition from './transition.svelte';
@@ -21,8 +22,18 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow });
 
+
+	const drawerSettings: DrawerSettings = {
+	
+	bgDrawer: '',
+	bgBackdrop: '',
+	width: 'max-w-xs md:max-w-md',
+	
+	
+};
+
 	function drawerOpen(): void {
-		drawerStore.open();
+		drawerStore.open(drawerSettings);
 	}
 	function drawerClose(): void {
 		drawerStore.close();
@@ -30,30 +41,9 @@
 	export let data;
 
 
-
-	import { onMount, onDestroy } from 'svelte';
-	
-	let greetings = ['Swim', 'Bike', 'Run', 'Oats'];
-	let index = 0;
-	let roller: number | undefined;
-	
-	onMount(() => {
-		roller = setInterval(() => {
-			if (index === greetings.length - 1) index = 0;
-			else index++;
-		}, 1500);
-	});
-	
-	onDestroy(() => {
-		clearInterval(roller);
-	});
-
-
-
-
 </script>
 
-<Drawer class="max-w-md">
+<Drawer>
 	
 	<a href="/" on:click={drawerClose}>
 	<header>
