@@ -4,11 +4,11 @@ import { onMount } from 'svelte';
 var endOfEurope = new Date("May 6, 2023, 09:00:00").getTime();
 var endOfRoth = new Date("June 25, 2023, 09:00:00").getTime();
 var endOfUS = new Date("Aug 5, 2023, 09:00:00").getTime();
-var endOfAsia = new Date("Aug 20, 2023, 09:00:00").getTime();
-var endOf703W = new Date("Aug 26, 2023, 07:30:00").getTime();
-var endOf703M = new Date("Aug 27, 2023, 07:30:00").getTime();
-var endOfWCMEN = new Date("Sep 10, 2023, 06:50:00").getTime();
-var endOfWCWOMEN = new Date("Oct 14, 2023, 06:25:00").getTime();
+var endOfAsia = "2023-08-20T07:00:00Z";
+var endOf703W = "2023-08-26T04:30:00Z";
+var endOf703M = "2023-08-27T04:30:00Z";
+var endOfWCMEN = "2023-09-10T04:50:00Z";
+var endOfWCWOMEN = "2023-10-14T16:25:00Z";
 
 var days :number;
 var hours :number;
@@ -26,7 +26,7 @@ let now: number = new Date().getTime();
 let distance: number;
 let distanceRoth: number;
 let distanceUS: number;
-let distanceAsia: number;
+let distanceAsia: any;
 let distance703: number;
 let distanceWCMEN: number;
 let distanceWCWOMEN: number;
@@ -84,7 +84,7 @@ return outputUS = daysUS + " days " + hoursUS + " h " + minutesUS + " m " + seco
 
 function timeAsia(now: number) {
 
-distanceAsia = endOfAsia - now;
+distanceAsia = Date.parse(endOfAsia) - now;
 
 var daysAsia = Math.floor(distanceAsia / (1000 * 60 * 60 * 24));
 var hoursAsia = Math.floor((distanceAsia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -97,7 +97,7 @@ return outputAsia = daysAsia + " days " + hoursAsia + " h " + minutesAsia + " m 
 
 function time703W(now: number) {
 
-var distance703W = endOf703W - now;
+var distance703W = Date.parse(endOf703W) - now;
 
 var days703W = Math.floor(distance703W / (1000 * 60 * 60 * 24));
 var hours703W = Math.floor((distance703W % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -112,7 +112,7 @@ return output703W = days703W + " days " + hours703W + " h " + minutes703W + " m 
 
 function time703M(now: number) {
 
-var distance703M = endOf703M - now;
+var distance703M = Date.parse(endOf703M) - now;
 
 var days703M = Math.floor(distance703M / (1000 * 60 * 60 * 24));
 var hours703M = Math.floor((distance703M % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -127,7 +127,7 @@ return output703M = days703M + " days " + hours703M + " h " + minutes703M + " m 
 
 function timeWCMEN(now: number) {
 
-distanceWCMEN = endOfWCMEN - now;
+distanceWCMEN = Date.parse(endOfWCMEN) - now;
 
 var daysWCMEN = Math.floor(distanceWCMEN / (1000 * 60 * 60 * 24));
 var hoursWCMEN = Math.floor((distanceWCMEN % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -140,7 +140,7 @@ return outputWCMEN = daysWCMEN + " days " + hoursWCMEN + " h " + minutesWCMEN + 
 
 function timeWCWOMEN(now: number) {
 
-distanceWCWOMEN = endOfWCWOMEN - now;
+distanceWCWOMEN = Date.parse(endOfWCWOMEN) - now;
 
 var daysWCWOMEN = Math.floor(distanceWCWOMEN / (1000 * 60 * 60 * 24));
 var hoursWCWOMEN = Math.floor((distanceWCWOMEN % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
