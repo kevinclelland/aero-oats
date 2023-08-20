@@ -7,8 +7,8 @@ var endOfUS = new Date("Aug 5, 2023, 09:00:00").getTime();
 var endOfAsia = new Date("Aug 20, 2023, 09:00:00").getTime();
 var endOf703W = new Date("Aug 26, 2023, 07:30:00").getTime();
 var endOf703M = new Date("Aug 27, 2023, 07:30:00").getTime();
-var endOfWCMEN = new Date("Sep 10, 2023, 09:00:00").getTime();
-var endOfWCWOMEN = new Date("Oct 14, 2023, 09:00:00").getTime();
+var endOfWCMEN = new Date("Sep 10, 2023, 06:50:00").getTime();
+var endOfWCWOMEN = new Date("Oct 14, 2023, 06:25:00").getTime();
 
 var days :number;
 var hours :number;
