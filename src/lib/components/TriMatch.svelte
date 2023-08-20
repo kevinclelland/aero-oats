@@ -145,12 +145,12 @@ $: time === 0 && gameLost()
 </div>
 
 {#if state === 'lost'}
-<h1 class="p-4 text-6xl">You lost! 💩</h1>
+<h1 class="p-4 text-6xl">You lost! 💩</h1><img src="https://media.giphy.com/media/3osxYz9sSvPoM8IRva/giphy.gif" alt="fail">
 <button on:click={() => (state = 'playing')}>Play again</button>
 {/if}
 
 {#if state === 'won'}
-<h1 class="p-4 text-6xl">You win! 🎉</h1>
+<h1 class="p-4 text-6xl">You win! 🎉</h1><img src="https://media.giphy.com/media/ACwcH7Ngn64QcKo9Eg/giphy.gif" alt="celebrate">
 <button on:click={() => (state = 'playing')}>Play again</button>
 {/if}
 
