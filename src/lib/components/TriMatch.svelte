@@ -33,7 +33,7 @@ function shuffle<Items>(array: Items[]) {
 
 function startGameTimer() {
     function countdown() {
-        state !== 'paused' && (time -= 1)
+        state !== 'paused' && state !== 'won' && (time -= 1)
     }
     timerId = setInterval(countdown, 1000)
 }
@@ -77,9 +77,9 @@ function resetGame() {
     time = 60
 }
 
+
 function gameWon() {
-    state = 'won'
-    resetGame()
+    state = 'won'    
 }
 
 function gameLost() {
@@ -150,8 +150,8 @@ $: time === 0 && gameLost()
 {/if}
 
 {#if state === 'won'}
-<h1 class="p-4 text-6xl">You win! 🎉</h1><img src="https://media.giphy.com/media/ACwcH7Ngn64QcKo9Eg/giphy.gif" alt="celebrate">
-<button on:click={() => (state = 'playing')}>Play again</button>
+<h1 class="p-4 text-6xl">You win! 🎉</h1><h1 class="timer p-4 text-4xl">{time} seconds left!</h1><img src="https://media.giphy.com/media/ACwcH7Ngn64QcKo9Eg/giphy.gif" alt="celebrate">
+<button on:click={() => resetGame()} on:click={() => (state = 'playing')} >Play again</button>
 {/if}
 
 
