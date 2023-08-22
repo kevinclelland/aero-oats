@@ -102,7 +102,7 @@ $: time === 0 && gameLost()
  
 <div class="mx-auto text-center box-border">
 {#if state === 'start'}
-<h1 class="p-4 text-6xl">Tri Match</h1>
+<h1 class="p-4 text-6xl">😜 Tri Match</h1>
 <button on:click={() => (state = 'playing')}>Play</button>
 {/if}
 

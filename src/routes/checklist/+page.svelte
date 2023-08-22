@@ -22,8 +22,8 @@ $: props = {
 
 </script>
 
-<p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">
-    Race Day Checklist
+<p class="text-center text-ao-pink dark:text-ao-orange text-5xl font-semibold p-4">
+    🎒 Race Day Checklist
 </p>
 
 <div class="p-2 max-w-7xl mx-auto">

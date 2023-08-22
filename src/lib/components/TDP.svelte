@@ -1,10 +1,10 @@
 <body>
 	<div class="flex grid grid-cols-3 gap-4 p-4">
-		<div class="col-span-3 mx-auto max-w-lg">
-			<p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">
-				Time Distance Pace
+		<div class="col-span-3 mx-auto max-w-2xl">
+			<p class="text-center text-ao-pink dark:text-ao-orange text-5xl font-semibold p-4">
+				📏 Time Distance Pace
 			</p>
-			<p class="text-center p-2">Calculate your time, distance or pace</p>
+			<p class="text-center text-lg p-2">Calculate your time, distance or pace</p>
 		</div>
 	</div>
 

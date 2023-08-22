@@ -4,11 +4,11 @@
 </script>
 <body>
 <div class="flex grid grid-cols-3 gap-4 p-4">
-    <div class="col-span-3 mx-auto max-w-lg">
-        <p class="text-center text-ao-pink dark:text-ao-orange text-3xl font-semibold p-4">
-            Triathlete ROI Calculator
+    <div class="col-span-3 mx-auto max-w-2xl">
+        <p class="text-center text-ao-pink dark:text-ao-orange text-5xl font-semibold p-4">
+            📈 Race ROI Calculator
         </p>
-        <p class="text-center p-2">
+        <p class="text-center text-lg p-2">
             Calculate your Return on Investment (ROI) to help plan or review your year in Triathlon.
         </p>
      
@@ -291,7 +291,7 @@
     </div>
 </div>
 
-<div class="flex grid grid-cols-3 gap-4 p-4">
+<div class="flex grid grid-cols-3 gap-4 p-4 max-w-7xl mx-auto">
     <div class="col-span-1 mx-auto text-center justify-center" id="result4">
         
         <div>
@@ -306,7 +306,7 @@
             
         </div>
 
-        <p id="roi" />
+        <p id="roi" class="text-xl" />
         
         
         
@@ -316,7 +316,7 @@
             
         </div>
 
-        <p id="totalpointsy" />
+        <p id="totalpointsy" class="text-xl" />
         
        
     
@@ -337,7 +337,7 @@
             
         </div>
 
-        <p id="roi1" />
+        <p id="roi1" class="text-xl" />
 
 
         <div>
@@ -346,7 +346,7 @@
         </div>
 
 
-        <p id="totalpointsy1" />
+        <p id="totalpointsy1" class="text-xl" />
        
 
 
@@ -365,14 +365,14 @@
             
         </div>
 
-        <p id="roi2" />
+        <p id="roi2" class="text-xl" />
 
         <div>
             <h2 class="text-2xl font-semibold">PTO Points</h2>
            
         </div>
 
-        <p id="totalpointsy2" />
+        <p id="totalpointsy2" class="text-xl" />
      
     </div>
     
@@ -605,12 +605,12 @@
         sponsor = document.getElementById('sponsor').value;
         otherincome = document.getElementById('otherincome').value;
 
-        totalincome = prize + appearance + sponsor + otherincome;
-        totalexpenses = flights + accommodation + carhire + otherexpenses;
-        roi = (totalincome - totalexpenses) / totalexpenses;
-        document.getElementById('roi').innerHTML = roi.toFixed(2);
-
-
+        totalincome = +prize + +appearance + +sponsor + +otherincome;
+        totalexpenses = +flights + +accommodation + +carhire + +otherexpenses;
+        roinum = ((totalincome - totalexpenses) / totalexpenses) * 100;
+        roi = parseFloat(roinum).toFixed(2);
+        document.getElementById('roi').innerHTML = roi + '%';
+   
 
 //run logic for race 2
 
@@ -699,8 +699,9 @@
 
         totalincome1 = +prize1 + +appearance1 + +sponsor1 + +otherincome1;
         totalexpenses1 = +flights1 + +accommodation1 + +carhire1 + +otherexpenses1;
-        roi1 = (totalincome1 - totalexpenses1) / totalexpenses1;
-        document.getElementById('roi1').innerHTML = roi1.toFixed(2);
+        roinum1 = ((totalincome1 - totalexpenses1) / totalexpenses1) *100;
+        roi1 = parseFloat(roinum1).toFixed(2);
+        document.getElementById('roi1').innerHTML = roi1 + '%';
 
 
 //run logic for race 3
@@ -788,10 +789,11 @@
         sponsor2 = document.getElementById('sponsor2').value;
         otherincome2 = document.getElementById('otherincome2').value;
 
-        totalincome2 = prize2 + appearance2 + sponsor2 + otherincome2;
-        totalexpenses2 = flights2 + accommodation2 + carhire2 + otherexpenses2;
-        roi2 = (totalincome2 - totalexpenses2) / totalexpenses;
-        document.getElementById('roi2').innerHTML = roi2.toFixed(2);
+        totalincome2 = +prize2 + +appearance2 + +sponsor2 + +otherincome2;
+        totalexpenses2 = +flights2 + +accommodation2 + +carhire2 + +otherexpenses2;
+        roinum2 = ((totalincome2 - totalexpenses2) / totalexpenses2) *100;
+        roi2 = parseFloat(roinum2).toFixed(2);
+        document.getElementById('roi2').innerHTML = roi2 + '%';
 
 
     };
