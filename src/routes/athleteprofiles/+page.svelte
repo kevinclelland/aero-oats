@@ -1,36 +1,29 @@
 <script lang="ts">
-	import { Avatar } from '@skeletonlabs/skeleton';
+
+
+
+
+
+
 	export let data;
 </script>
 
 <div class="text-center text-6xl p-4">🏆️ Athletes</div>
 
-<!--
-<main class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4 max-w-7xl mx-auto items-center">
-	
-	{#each data.movies as movie}
-		<article class="col-span-1 mx-auto">
-			<a href="/athleteprofiles/movie/{movie.id}">
-				<div class="poster cover">
-					<Avatar
-						src={movie.avatar}
-						width="w-36"
-						class="flex-none"/>
-				</div>
-			</a>
 
-			<p class="title p-2 text-center">
-				{movie.title}
-			</p>
-		</article>
-	{/each}
-</main>
--->
+
+
+
+
+
+
+
+
 <div class="justify-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-4 max-w-7xl mx-auto items-center">
 {#each data.movies as movie}
 
 	<div class="max-w-md rounded bg-gray-100 dark:bg-gray-500 shadow-lg transform duration-200 easy-in-out m-4 col-span-1 mx-auto">
-	  <div class="h-2/4 max-h-52 sm:h-64 overflow-hidden">
+	  <div class="h-2/4 max-h-48 sm:h-64 overflow-hidden">
 		<img class="w-full rounded-t"
 		  src={movie.poster_path}
 		  alt="poster" />
@@ -44,7 +37,7 @@
 	  </div>
 	  <div class="">
 		<div class="px-4 mb-2">
-		  <h2 class="text-2xl font-bold ">{movie.title}</h2>
+		  <h2 class="text-lg sm:text-2xl font-bold ">{movie.title}</h2>
 		  <p class="mb-2">{movie.release_date}</p>
 		  
 		  <div
@@ -80,3 +73,4 @@
   
   {/each}
 </div>
+
