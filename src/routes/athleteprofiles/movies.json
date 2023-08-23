@@ -8,7 +8,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/07/f42714f5-fcf9-44fb-9c7f-a55841d65d3e-w300.webp",
 		"release_date": "Switzerland",
 		"vote_average": 8.2,
-		"youtube": "https://www.youtube.com/embed/5jIXe-qKCCs"
+		"youtube": "https://www.youtube.com/embed/5jIXe-qKCCs",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Lionel Sanders",
@@ -19,7 +22,10 @@
 		"backdrop_path": "https://protriathletes.org/wp-content/uploads/2022/04/oceanside-featured-soj-jibowu-1024x576.jpg",
 		"release_date": "Canada",
 		"vote_average": 8.2,
-		"youtube": "https://www.youtube.com/embed/CJ3CINWK5gU"
+		"youtube": "https://www.youtube.com/embed/CJ3CINWK5gU",
+		"instagram": "https://www.instagram.com/lsanderstri/",
+		"website": "https://lsanderstri.com/",
+		"youtubechannel": "https://www.youtube.com/@Lionel.Sanders"
 	},
 	{
 		"title": "Max Neumann",
@@ -30,18 +36,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/70692734-0a71-40b2-aa77-fb0fc32d4a0a-w300.webp",
 		"release_date": "Australia",
 		"vote_average": 8.2,
-		"youtube": "https://www.youtube.com/embed/P19eE4DHHag"
-	},
-	{
-		"title": "Kristian Blummenfelt",
-		"id": "kristian-blummenfelt",
-		"avatar": "https://content.protriathletes.org/content/images/2023/05/de470021-5e6d-4dc6-a008-7060dc46650b-w300.webp",
-		"overview": "Norwegian Hype train....",
-		"poster_path": "/images/kb.jpg",
-		"backdrop_path": "/images/kbbg.jpg",
-		"release_date": "Norway",
-		"vote_average": 7.3,
-		"youtube": "https://www.youtube.com/embed/iCNKUmcuTU8"
+		"youtube": "https://www.youtube.com/embed/P19eE4DHHag",
+		"instagram": "https://www.instagram.com/maxxyneumann/",
+		"website": "https://www.220triathlon.com/news/athletes/who-is-max-neumann/#:~:text=After%20several%20seasons%20as%20an,at%20the%20age%20of%2022.",
+		"youtubechannel": "https://www.youtube.com/results?search_query=max+neumann"
 	},
 	{
 		"title": "Joe Skipper",
@@ -52,7 +50,10 @@
 		"backdrop_path": "http://i0.wp.com/joeskipper.co.uk/wp-content/uploads/2019/05/E28273E5-3734-4408-B217-2D3270BDEB9A.jpeg?w=1200",
 		"release_date": "Great Britain",
 		"vote_average": 6.9,
-		"youtube": "https://www.youtube.com/embed/aRYjAsjaDCE"
+		"youtube": "https://www.youtube.com/embed/aRYjAsjaDCE",
+		"instagram": "https://www.instagram.com/notanotheraveragejoe/",
+		"website": "https://joeskipper.co.uk/",
+		"youtubechannel": "https://www.youtube.com/@joeskipper91"
 	},
 	{
 		"title": "Chelsea Sodaro",
@@ -63,7 +64,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/76ecee89-4618-4d5a-978c-a13a93e92689-w300.webp",
 		"release_date": "America",
 		"vote_average": 6.9,
-		"youtube": "https://www.youtube.com/embed/Ya2Z0SYolCY"
+		"youtube": "https://www.youtube.com/embed/Ya2Z0SYolCY",
+		"instagram": "https://www.instagram.com/chelseasodaro/",
+		"website": "https://chelseasodaro.com/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=chelsea+sodaro"
 	},
 	{
 		"title": "Paula Findlay",
@@ -74,7 +78,10 @@
 		"backdrop_path": "/images/pf.png",
 		"release_date": "Canada",
 		"vote_average": 6.4,
-		"youtube": "https://www.youtube.com/embed/DDkN6dg_zHg"
+		"youtube": "https://www.youtube.com/embed/DDkN6dg_zHg",
+		"instagram": "https://www.instagram.com/paula_findlay/",
+		"website": "https://thattriathlonlife.com/",
+		"youtubechannel": "https://www.youtube.com/@ThatTriathlonLife"
 	},
 	{
 		"title": "Anne Haug",
@@ -85,7 +92,10 @@
 		"backdrop_path": "/images/ahbg.jpg",
 		"release_date": "Germany",
 		"vote_average": 6.6,
-		"youtube": "https://www.youtube.com/embed/FXhVAHBEi3c"
+		"youtube": "https://www.youtube.com/embed/FXhVAHBEi3c",
+		"instagram": "https://www.instagram.com/tri.anne.haug/",
+		"website": "https://anne-haug.de/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=anne+haug"
 	},
 	{
 		"title": "Gustav Iden",
@@ -96,7 +106,10 @@
 		"backdrop_path": "https://scontent.fdur5-1.fna.fbcdn.net/v/t39.30808-6/316058768_5505735042859027_905356407298287839_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGiMMyXRd_YtBRTr08CssjHL9NE7kR3UgMv00TuRHdSA8ycTyfhEC1qS-FeQhsgzwQ&_nc_ohc=9EgUo5dKlkIAX9sSxhQ&_nc_ht=scontent.fdur5-1.fna&oh=00_AfDUWQxRJZaOKpOeBtC2YodzSqDi3_9Fs4BMWopke9NW-Q&oe=649D1A39",
 		"release_date": "Norway",
 		"vote_average": 7.5,
-		"youtube": "https://www.youtube.com/embed/GrzDoSwg198"
+		"youtube": "https://www.youtube.com/embed/GrzDoSwg198",
+		"instagram": "https://www.instagram.com/gustav_iden/",
+		"website": "http://www.gustaviden.com/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=gustav+iden"
 	},
 	{
 		"title": "Magnus Ditlev",
@@ -107,7 +120,10 @@
 		"backdrop_path": "https://protriathletes.org/wp-content/uploads/2022/03/pto-weapon-of-choice-magnus-ditlev-1024x576.jpg",
 		"release_date": "Denmark",
 		"vote_average": 6.5,
-		"youtube": "https://www.youtube.com/embed/H-exNl-KRXQ"
+		"youtube": "https://www.youtube.com/embed/H-exNl-KRXQ",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Sam Laidlow",
@@ -118,7 +134,10 @@
 		"backdrop_path": "https://scontent.fdur5-1.fna.fbcdn.net/v/t39.30808-6/347127333_557818199831059_6166778578460821952_n.png?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHtu-oMi7WFM4MK_Nmph4MmDX-hTxxqzHsNf6FPHGrMe91sLQ-QN2-_EisGWa2BrzA&_nc_ohc=ojtQ9KUczi8AX8ThC7Q&_nc_ht=scontent.fdur5-1.fna&oh=00_AfBg0OrffmKKg7ZUi-hCA8rVqqWV1LEBz76qHPhTjbUcFg&oe=649D6314",
 		"release_date": "France",
 		"vote_average": 7.4,
-		"youtube": "https://www.youtube.com/embed/CTLRmxW64so"
+		"youtube": "https://www.youtube.com/embed/CTLRmxW64so",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Ashleigh Gentle",
@@ -129,18 +148,10 @@
 		"backdrop_path": "https://scontent.fdur5-1.fna.fbcdn.net/v/t39.30808-6/295458004_5175471529218715_8088318216613595715_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFdvBKVBrZjceQfqbO0OgvGCZLc_auZiiIJktz9q5mKIqy-b8FbMXoexRAcDCPyPaw&_nc_ohc=tGuZIntn3mgAX_K10vw&_nc_ht=scontent.fdur5-1.fna&oh=00_AfA9uyKxgKYNw_S1Rjg6afnjnk9E46VRYzoXpQ7p1riQcA&oe=649CF29D",
 		"release_date": "Australia",
 		"vote_average": 6.5,
-		"youtube": "https://www.youtube.com/embed/y67daxfIFf4"
-	},
-	{
-		"title": "Lucy Charles-Barclay",
-		"id": "lucy-charles-barclay",
-		"avatar": "https://content.protriathletes.org/content/images/2023/05/31ed8c21-2d5f-45ae-8b97-5e109be0228f-w300.webp",
-		"overview": "Best swimmer in the sport, and a pretty good biker and runner too...",
-		"poster_path": "/images/lcb.jpg",
-		"backdrop_path": "/images/lcbbg.png",
-		"release_date": "Great Britain",
-		"vote_average": 8.4,
-		"youtube": "https://www.youtube.com/embed/Fqd3v8lg1II"
+		"youtube": "https://www.youtube.com/embed/y67daxfIFf4",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Taylor Knibb",
@@ -151,18 +162,10 @@
 		"backdrop_path": "https://scontent.fdur5-1.fna.fbcdn.net/v/t39.30808-6/307180667_5330872570345276_7193398878947175178_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE5InEN3uBuOPg3moh2ZAdCkZ22hlxuItmRnbaGXG4i2e1KvCm9RgRo7IZm14Ud-nE&_nc_ohc=Ck6eBZMToOcAX9p1Xln&_nc_ht=scontent.fdur5-1.fna&oh=00_AfCAk42nAVbZSXXnQLmR-kJNp_SuLo9V-qpdCk0l8jpROQ&oe=649D0F5A",
 		"release_date": "America",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/S3xo237JM5M"
-	},
-	{
-		"title": "Emma Pallant-Browne",
-		"id": "emma-pallant-browne",
-		"avatar": "https://content.protriathletes.org/content/images/2023/05/5ad53c5c-b684-42cb-8c49-f0aa8d910b42-w300.webp",
-		"overview": "British athlete who is a force to be reckoned with...",
-		"poster_path": "/images/epb.jpg",
-		"backdrop_path": "/images/epbbg.jpg",
-		"release_date": "Great Britain",
-		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/4V8zhIlmli8"
+		"youtube": "https://www.youtube.com/embed/S3xo237JM5M",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Brad Weiss",
@@ -173,7 +176,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/2e0a6641-3289-438a-97a6-b324b60e79f1-w300.webp",
 		"release_date": "South Africa",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/MciEC0hh6cc"
+		"youtube": "https://www.youtube.com/embed/MciEC0hh6cc",
+		"instagram": "https://www.instagram.com/bsweiss_tri/",
+		"website": "https://www.bradley-weiss.com/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=brad+weiss"
 	},
 	{
 		"title": "Matt Trautman",
@@ -184,7 +190,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2021/05/c5d14d82-5c2e-4f87-9e9c-748fa8fb0403-w300.webp",
 		"release_date": "South Africa",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/siEzzfzc7xo"
+		"youtube": "https://www.youtube.com/embed/siEzzfzc7xo",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Jeanni Metzler",
@@ -195,10 +204,13 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2022/01/1a360abd-2b07-4120-88c3-5dfd2b81a1b2-w300.webp",
 		"release_date": "South Africa",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/N4IccIXXAec"
+		"youtube": "https://www.youtube.com/embed/N4IccIXXAec",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
-		"title": "Cameron Macnair",
+		"title": "Cam Macnair",
 		"id": "cameron-macnair",
 		"avatar": "https://content.protriathletes.org/content/images/2021/05/aa5e5fd7-bcb1-476b-bdfa-82ef1a1d547a-w300.webp",
 		"overview": "One to watch in the future...",
@@ -206,18 +218,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2021/05/aa5e5fd7-bcb1-476b-bdfa-82ef1a1d547a-w300.webp",
 		"release_date": "South Africa",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/HRBVbrMCNk0"
-	},
-	{
-		"title": "Natia van Heerden",
-		"id": "natia-van-heerden",
-		"avatar": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
-		"overview": "Graduated from the Zwift academy in 2019 and came 2nd age-grouper in the 2019 World Championships...",
-		"poster_path": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
-		"backdrop_path": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
-		"release_date": "South Africa",
-		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/siJhtawe0-c"
+		"youtube": "https://www.youtube.com/embed/HRBVbrMCNk0",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Henri Schoeman",
@@ -228,7 +232,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2021/05/3f3dedb4-5151-4d0e-9013-768a1777b4ca-w300.webp",
 		"release_date": "South Africa",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/BOL8VKlxX-I"
+		"youtube": "https://www.youtube.com/embed/BOL8VKlxX-I",
+		"instagram": "https://www.instagram.com/henrischoeman/",
+		"website": "https://www.google.com/search?q=henri+schoeman&sca_esv=559279238&rlz=1C1ONGR_enZA1018ZA1018&sxsrf=AB5stBg0SspvvMsUpkjZaEgEGBKBNlchUw:1692760799686&ei=33rlZILFKZq1hbIP4J672AE&start=0&sa=N&ved=2ahUKEwjCsJ6x6fGAAxWaWkEAHWDPDhs4ChDy0wN6BAgDEAQ&biw=1920&bih=955&dpr=1",
+		"youtubechannel": "https://www.youtube.com/@henri_schoeman"
 	},
 	{
 		"title": "Sarah True",
@@ -239,7 +246,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/03/149331e4-8827-461e-bf88-bd5b48b56987-w300.webp",
 		"release_date": "America",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/8axEtqbzdfM"
+		"youtube": "https://www.youtube.com/embed/8axEtqbzdfM",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Kat Matthews",
@@ -250,7 +260,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/8d56b74b-7c86-484a-8cbb-363661797c45-w300.webp",
 		"release_date": "Great Britain",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/QOClUTSUQWk"
+		"youtube": "https://www.youtube.com/embed/QOClUTSUQWk",
+		"instagram": "https://www.instagram.com/katr_matthews/",
+		"website": "https://www.katrinamatthewstri.com/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=kat+matthews"
 	},
 	{
 		"title": "Ruth Astle",
@@ -261,7 +274,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/03/eeda5527-9eec-4e19-bfba-96cfec795419-w300.webp",
 		"release_date": "Great Britain",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/6dSLipELRMo"
+		"youtube": "https://www.youtube.com/embed/6dSLipELRMo",
+		"instagram": "https://www.instagram.com/rastle07/",
+		"website": "https://www.ruthastle.com/",
+		"youtubechannel": "https://www.youtube.com/@Reastle1"
 	},
 	{
 		"title": "Kyle Smith",
@@ -272,7 +288,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2023/05/e02d2ea4-707b-419b-b64b-9f5a5d702f73-w300.webp",
 		"release_date": "New Zealand",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/TMqi7qsTY8U"
+		"youtube": "https://www.youtube.com/embed/TMqi7qsTY8U",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Javier Gomez",
@@ -283,7 +302,10 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2021/03/f994056a-2a7f-4672-b4f4-d3b5081fb873-w300.webp",
 		"release_date": "Spain",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/atjQ7YMakuU"
+		"youtube": "https://www.youtube.com/embed/atjQ7YMakuU",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	},
 	{
 		"title": "Mariella Sawyer",
@@ -294,6 +316,65 @@
 		"backdrop_path": "https://content.protriathletes.org/content/images/2021/05/3e241918-33d6-475b-8fb9-7c830aaff46b-w300.webp",
 		"release_date": "South Africa",
 		"vote_average": 7.9,
-		"youtube": "https://www.youtube.com/embed/4b_vCQDk9Do"
+		"youtube": "https://www.youtube.com/embed/4b_vCQDk9Do",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
+	},
+	{
+		"title": "Kristian Blummenfelt",
+		"id": "kristian-blummenfelt",
+		"avatar": "https://content.protriathletes.org/content/images/2023/05/de470021-5e6d-4dc6-a008-7060dc46650b-w300.webp",
+		"overview": "Norwegian Hype train....",
+		"poster_path": "/images/kb.jpg",
+		"backdrop_path": "/images/kbbg.jpg",
+		"release_date": "Norway",
+		"vote_average": 7.3,
+		"youtube": "https://www.youtube.com/embed/iCNKUmcuTU8",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
+	},
+	{
+		"title": "Emma Pallant-Browne",
+		"id": "emma-pallant-browne",
+		"avatar": "https://content.protriathletes.org/content/images/2023/05/5ad53c5c-b684-42cb-8c49-f0aa8d910b42-w300.webp",
+		"overview": "British athlete who is a force to be reckoned with...",
+		"poster_path": "/images/epb.jpg",
+		"backdrop_path": "/images/epbbg.jpg",
+		"release_date": "Great Britain",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/4V8zhIlmli8",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
+	},
+	{
+		"title": "Lucy Charles-Barclay",
+		"id": "lucy-charles-barclay",
+		"avatar": "https://content.protriathletes.org/content/images/2023/05/31ed8c21-2d5f-45ae-8b97-5e109be0228f-w300.webp",
+		"overview": "Best swimmer in the sport, and a pretty good biker and runner too...",
+		"poster_path": "/images/lcb.jpg",
+		"backdrop_path": "/images/lcbbg.png",
+		"release_date": "Great Britain",
+		"vote_average": 8.4,
+		"youtube": "https://www.youtube.com/embed/Fqd3v8lg1II",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
+	},
+	{
+		"title": "Natia van Heerden",
+		"id": "natia-van-heerden",
+		"avatar": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
+		"overview": "Graduated from the Zwift academy in 2019 and came 2nd age-grouper in the 2019 World Championships...",
+		"poster_path": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
+		"backdrop_path": "https://content.protriathletes.org/content/images/2023/06/8b5a4858-dfd4-4b4f-afef-b8087aa9a012-w300.webp",
+		"release_date": "South Africa",
+		"vote_average": 7.9,
+		"youtube": "https://www.youtube.com/embed/siJhtawe0-c",
+		"instagram": "https://www.instagram.com/danielaryf/",
+		"website": "https://danielaryf.ch/en/",
+		"youtubechannel": "https://www.youtube.com/results?search_query=daniela+ryf"
 	}
 ]
