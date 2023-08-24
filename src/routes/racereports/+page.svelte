@@ -64,7 +64,7 @@
 			{#each data.posts as post}
 				<div class="col-span-1 card card-hover max-w-2xl overflow-hidden">
 					<header class="flex justify-around">
-						<img src={post.photo} class="bg-black/50 max-h-80" alt="Post" />
+						<a href={post.slug}><img src={post.photo} class="bg-black/50 max-h-80" alt="Post" /></a>
 					</header>
 					<div class="p-4 space-y-4">
 						<h3 class="h3"><a href={post.slug} class="title">{post.title}</a></h3>
