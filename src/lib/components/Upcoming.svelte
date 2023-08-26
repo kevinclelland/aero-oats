@@ -27,7 +27,8 @@ let distance: number;
 let distanceRoth: number;
 let distanceUS: number;
 let distanceAsia: any;
-let distance703: number;
+let distance703W: number;
+let distance703M: number;
 let distanceWCMEN: number;
 let distanceWCWOMEN: number;
 
@@ -242,11 +243,16 @@ return outputWCWOMEN = daysWCWOMEN + " days " + hoursWCWOMEN + " h " + minutesWC
 				<dt class="font-bold">Ironman 70.3 WC</dt>
 				<dd class="text-sm opacity-50 text-ellipsis">26/27 August - Lahti,Finland</dd>
 				<dd class="text-sm opacity-50 text-ellipsis">
-
-					{#if distance703 < 1}
+					
+					{#if distance703W < 1}
 					<p>Complete</p>
 					{:else}
-					L: {time703W(now)}<br>
+					L: Complete
+					{/if}<br>
+
+					{#if distance703M < 1}
+					<p>Complete</p>
+					{:else}
 					M:{time703M(now)}
 					{/if}
 
