@@ -43,7 +43,7 @@
                     <input class="input" type="search" placeholder="Search..." />
                 </header>
                 <!-- List -->
-                <div class="p-2 space-y-4 overflow-y-auto max-h-[500px] sm:max-h-[500px]">
+                <div class="p-2 space-y-4 overflow-y-auto max-h-[700px] sm:max-h-[700px]">
                     <small class="opacity-50 p-2 text-lg">Contacts</small>
                     
     <ListBox active="variant-filled-primary">

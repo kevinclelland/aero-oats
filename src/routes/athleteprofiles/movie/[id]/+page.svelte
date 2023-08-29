@@ -215,7 +215,7 @@
 
 {/if}
 			<!-- Conversation -->
-			<section bind:this={elemChat} class="max-h-[500px] p-4 overflow-y-auto space-y-4">
+			<section bind:this={elemChat} class="p-4 space-y-4">
 
 						{#each messageFeed as bubble}
 	
