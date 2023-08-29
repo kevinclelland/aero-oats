@@ -253,7 +253,7 @@ return outputWCWOMEN = daysWCWOMEN + " days " + hoursWCWOMEN + " h " + minutesWC
 					{#if distance703M < 1}
 					<p>Complete</p>
 					{:else}
-					M:{time703M(now)}
+					M: Complete
 					{/if}
 
 				</dd>

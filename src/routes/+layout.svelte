@@ -56,7 +56,7 @@
 	<Navigation />
 </Drawer>
 
-<AppShell slotHeader="pb-2" slotPageFooter="pt-2">
+<AppShell slotHeader="" slotPageFooter="pt-2">
 	<svelte:fragment slot="header">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
@@ -78,7 +78,7 @@
 
 				<div class="flex items-center justify-center mx-auto">
 
-					<img src="/images/logo4sm31.png" class="max-h-36 w-fit" alt="Aero Oats Logo" />
+					<img src="/images/logo4sm31.png" class="max-h-28 w-fit" alt="Aero Oats Logo" />
 	
 				</div>
 			</a>

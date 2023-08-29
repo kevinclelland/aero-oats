@@ -11,10 +11,8 @@
 						class="uppercase self-center text-xl font-semibold whitespace-nowrap bg-gradient-to-br from-ao-pink to-ao-orange bg-clip-text text-transparent box-decoration-clone"
 						>Aero Oats</span
 					>
-					<p class="px-2">by</p>
-					<a href="https://kevinclelland.com/" class="bg-sky-600 px-3 py-1 rounded-full text-sm"
-						>@kevinclelland</a
-					>
+					<p class="px-2">made in</p>
+					<img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ff-1f1e6.png" alt="South Africa" class="h-8">
 				</a>
 			</div>
 		</div>
