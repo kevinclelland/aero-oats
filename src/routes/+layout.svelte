@@ -1,17 +1,17 @@
 <script lang="ts">
-	// The ordering of these imports is critical to your app working properly
-	import '@skeletonlabs/skeleton/themes/theme-crimson.css';
-	// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
-	import '@skeletonlabs/skeleton/styles/skeleton.css';
+
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
+	import { initializeStores } from '@skeletonlabs/skeleton';
+	initializeStores();
+	import { getDrawerStore } from "@skeletonlabs/skeleton";
 	import {
 		AppShell,
 		AppBar,
 		Avatar,
 		LightSwitch,
 		Drawer,
-		drawerStore
+		
 	} from '@skeletonlabs/skeleton';
 	import type { DrawerSettings } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/components/Navigation.svelte';
@@ -21,7 +21,13 @@
 
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow });
+	
 
+
+
+
+
+	const drawerStore = getDrawerStore();
 
 	const drawerSettings: DrawerSettings = {
 	
@@ -55,6 +61,10 @@
 	
 	<Navigation />
 </Drawer>
+
+
+
+<!-- <AppShell>...</AppShell> -->
 
 <AppShell slotHeader="" slotPageFooter="pt-2">
 	<svelte:fragment slot="header">
