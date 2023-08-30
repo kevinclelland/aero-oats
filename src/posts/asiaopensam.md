@@ -88,7 +88,7 @@ photo: 'https://24liveblog.tradingfront.cn/event/3382205800862032884/20230820072
 <div class="col-span-2 p-4">
         <h1 class="text-center font-serif text-3xl font-bold italic">The Swim</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Mentally Tough</h1>
+        <h1 class="mt-3 text-center text-xl font-bold italic">Alone and Behind</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
   <div>
    <h1 class="text-center font-serif text-xl font-bold">Time: 00:29:36</h1>       
@@ -108,7 +108,7 @@ photo: 'https://24liveblog.tradingfront.cn/event/3382205800862032884/20230820072
  <article class="col-span-1">
         <h1 class="text-center font-serif text-3xl font-bold italic">The Bike</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Just no energy</h1>
+        <h1 class="mt-3 text-center text-xl font-bold italic">Hot Hot Hot</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
         <div>
         <h1 class="text-center font-serif text-xl font-bold">Time: 01:51:54</h1>  
@@ -123,7 +123,7 @@ photo: 'https://24liveblog.tradingfront.cn/event/3382205800862032884/20230820072
   
 <article class="col-span-2 p-3">
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mb-3 text-center font-serif text-6xl">Grit and Character</h1>
+        <h1 class="mb-3 text-center font-serif text-6xl">Belief and Committment</h1>
 
   <hr class="m-auto my-4 w-[150px] border-2 border-black" />
         <img class="mb-5 max-h-20 mx-auto border border-4 border border-black/50 grayscale" src="https://24liveblog.tradingfront.cn/event/3382205800862032884/20230820103920_928274.jpeg" alt="old"/>
@@ -134,7 +134,7 @@ photo: 'https://24liveblog.tradingfront.cn/event/3382205800862032884/20230820072
 <article class="col-span-1">
         <h1 class="text-center font-serif text-3xl font-bold italic">The Run</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
-        <h1 class="mt-3 text-center text-xl font-bold italic">Fighting back</h1>
+        <h1 class="mt-3 text-center text-xl font-bold italic">Hanging Tough</h1>
         <hr class="m-auto my-4 w-[150px] border-2 border-black" />
         <div>
           <h1 class="text-center font-serif text-xl font-bold">Time: 01:05:47</h1>
