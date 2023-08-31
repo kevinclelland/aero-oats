@@ -165,7 +165,7 @@
 			</h6>
 			<div class="flex justify-center"><Subscribe /></div>
 
-			<h3 class="p-4 h3">Tools</h3>
+			<h3 class="p-4 h3">Tools 🛠️</h3>
 			<hr />
 			
 			<Tools />
