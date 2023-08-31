@@ -8,8 +8,8 @@ let grid = createGrid()
 let maxMatches = grid.length / 2
 let selected: number[] = []
 let matches: string[] = []
-let timerId: number | null = null
-let time = 60
+let timerId: any | null = null
+let time = 50
 
 function createGrid() {
     // only want unique cards
@@ -74,7 +74,7 @@ function resetGame() {
     selected = []
     matches = []
     timerId = null
-    time = 60
+    time = 50
 }
 
 
