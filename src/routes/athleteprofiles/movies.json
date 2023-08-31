@@ -588,9 +588,31 @@
 		"host": true,
 		"nick": "Jane",
 		"timestamp": "Yesterday @ 2:30pm",
-		"message": "Hello everyone, I'm Lucy Charles-Barclay and I'm a professional triathlete from Great Britain. I'm a 2x Ironman World Championship runner-up and I'm looking forward to answering your questions today!",
+		"message": "Hello everyone, I'm Lucy Charles-Barclay and I'm a professional triathlete from Great Britain. I'm a 2x Ironman World Championship runner-up!",
 		"message2": "Here are the links to my social media profiles:",
 		"message3": "And check out this video of me:",
+		"color": "variant-soft-primary"
+	},
+	{
+		"title": "Magda Nieuwoudt",
+		"id": "magda-nieuwoudt",
+		"avatar": "/images/mnsm.png",
+		"overview": "South African climbing the ranks...",
+		"poster_path": "/images/mnsm.png",
+		"backdrop_path": "/images/mnsm.png",
+		"release_date": "South Africa",
+		"vote_average": 8.4,
+		"youtube": "https://www.youtube.com/embed/00-I6NWxQVY?si=kVHCBMZPh77F0iLi",
+		"instagram": "https://www.instagram.com/magdanieuwoudt/",
+		"website": "https://www.triviumtriathlon.co.za/magda-nieuwoudt.html",
+		"youtubechannel": "https://www.youtube.com/@magdanieuwoudt8670",
+		"idmsg": 26,
+		"host": true,
+		"nick": "Jane",
+		"timestamp": "Yesterday @ 2:30pm",
+		"message": "Howzit everyone, my name is Magda and I'm a pro triathlete and coach from South Africa",
+		"message2": "Here are the links to my social media profiles:",
+		"message3": "Have a look at this video where I talk about my background amongst many other things:",
 		"color": "variant-soft-primary"
 	}
 ]

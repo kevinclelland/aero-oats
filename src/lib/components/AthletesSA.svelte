@@ -11,6 +11,13 @@
 		},
 		{
 			avatar:
+				'/images/mnsm.png',
+			name: 'Magda Nieuwoudt',
+			label: 'Youtube, Instagram',
+			link: './athleteprofiles/movie/magda-nieuwoudt'
+		},
+		{
+			avatar:
 				'https://content.protriathletes.org/content/images/2021/05/c5d14d82-5c2e-4f87-9e9c-748fa8fb0403-w300.webp',
 			name: 'Matt Trautman',
 			label: 'Youtube, Instagram',
