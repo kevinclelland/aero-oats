@@ -53,7 +53,7 @@
 	
 	<a href="/" on:click={drawerClose}>
 	<header>
-		<img src="/images/Banner4.jpg" class="bg-black/50 w-full" alt="Post" />
+		<img src="/images/Banner4webp2.webp" class="bg-black/50 w-full" alt="Post" />
 	</header>
 </a>
 	
@@ -71,7 +71,7 @@
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
 				<div class="flex items-center">
-					<button class="btn btn-sm mr-1" on:click={drawerOpen}>
+					<button class="btn btn-sm mr-1" aria-label="Hamburger Menu" on:click={drawerOpen}>
 						<span>
 							<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
 								<rect width="100" height="20" />
@@ -88,7 +88,7 @@
 
 				<div class="flex items-center justify-center mx-auto">
 
-					<img src="/images/logo4sm31.png" class="max-h-28 w-fit" alt="Aero Oats Logo" />
+					<img src="/images/logo4sm31webplossless.webp" class="max-h-28 w-fit" alt="Aero Oats Logo" />
 	
 				</div>
 			</a>
