@@ -22,11 +22,6 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow });
 	
-
-
-
-
-
 	const drawerStore = getDrawerStore();
 
 	const drawerSettings: DrawerSettings = {

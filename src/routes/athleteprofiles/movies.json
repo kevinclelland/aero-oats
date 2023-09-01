@@ -59,9 +59,9 @@
 		"idmsg": 2,
 		"host": true,
 		"nick": "Jane",
-		"timestamp": "Yesterday @ 2:30pm",
+		"timestamp": "Yesterday @ 2:17pm",
 		"message": "Hi guys I'm Maxx",
-		"message2": "Here are the links to my social media profiles:",
+		"message2": "Check out my socials below",
 		"message3": "And check out this video of me:",
 		"color": "variant-soft-primary"
 	},
@@ -83,7 +83,7 @@
 		"nick": "Jane",
 		"timestamp": "Yesterday @ 2:30pm",
 		"message": "Hello everyone, my name is Joe and i'm from Norwich in the UK",
-		"message2": "Here are the links to my social media profiles:",
+		"message2": "You can follow me on social media using the links below",
 		"message3": "And check out this video of me:",
 		"color": "variant-soft-primary"
 	},
@@ -127,7 +127,7 @@
 		"nick": "Jane",
 		"timestamp": "Yesterday @ 2:30pm",
 		"message": "Hey eveyone I'm Paula from Canada!",
-		"message2": "Here are the links to my social media profiles:",
+		"message2": "Be sure to check out my instagram and That Triathlon Life on Youtube",
 		"message3": "And check out this video of me:",
 		"color": "variant-soft-primary"
 	},
@@ -171,7 +171,7 @@
 		"nick": "Jane",
 		"timestamp": "Yesterday @ 2:30pm",
 		"message": "Hello everybody, I am Gustav from Norway. I am the 2022 Kona World Champion.",
-		"message2": "Here are the links to my social media profiles:",
+		"message2": "Check me out below:",
 		"message3": "And check out this video of me:",
 		"color": "variant-soft-primary"
 	},
@@ -215,7 +215,7 @@
 		"nick": "Jane",
 		"timestamp": "Yesterday @ 2:30pm",
 		"message": "Hey guys i'm Sam from France. I came 2nd at Kona in 2022.",
-		"message2": "Here are the links to my social media profiles:",
+		"message2": "You can follow me on the below channels:",
 		"message3": "And check out this video of me:",
 		"color": "variant-soft-primary"
 	},
@@ -280,9 +280,9 @@
 		"host": true,
 		"nick": "Jane",
 		"timestamp": "Yesterday @ 2:30pm",
-		"message": "Hi there, I'm from South Africa and a two time Xterra World Champion.",
+		"message": "Howzit guys, I'm from South Africa and a two time Xterra World Champion.",
 		"message2": "Here are the links to my social media profiles:",
-		"message3": "And check out this video of me:",
+		"message3": "And here's a video of me:",
 		"color": "variant-soft-primary"
 	},
 	{

@@ -39,13 +39,13 @@
 >
 	<div>
 		
-		<span>Athletes: 4</span>
+		<span>Athletes: 5</span>
 		
 	</div>
-	<span>Updated: 20 Aug 23</span>
+	<span>Updated: 27 Aug 23</span>
 	<div class="flex items-center">
 		
-		<p class="px-2">Races: 4</p>
+		<p class="px-2">Races: 5</p>
 	</div>
 </section>
 

@@ -110,7 +110,7 @@
 {#each data.movies as movie}
 
 
-<ListBoxItem bind:group={bubblecolor} name="people" value=true class={movie.id === $page.params.id ? "variant-filled-primary" : ""}>
+<ListBoxItem bind:group={bubblecolor} name="people" value=true class={movie.id === $page.params.id ? "variant-filled-primary pointer-events-none" : ""}>
 <svelte:fragment slot="lead">
 	<a href="/athleteprofiles/movie/{movie.id}">
 		<Avatar src={movie.avatar} class="w-16 sm:w-16" />
