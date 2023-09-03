@@ -150,7 +150,7 @@ $: time === 0 && gameLost()
 {/if}
 
 {#if state === 'won'}
-<h1 class="p-4 text-6xl">You win! 🎉</h1><h1 class="timer p-4 text-4xl">{time} seconds left!</h1><img src="https://media.giphy.com/media/72caxwt2jwpgUDTAYD/giphy.gif" alt="celebrate">
+<h1 class="p-4 text-6xl">You win! 🎉</h1><h1 class="timer p-4 text-4xl">{time} seconds left!</h1><img src="https://media.giphy.com/media/72caxwt2jwpgUDTAYD/giphy.gif" alt="celebrate" class="mx-auto">
 <button on:click={() => resetGame()} on:click={() => (state = 'playing')} >Play again</button>
 {/if}
 
